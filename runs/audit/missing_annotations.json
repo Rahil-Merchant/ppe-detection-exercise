@@ -1,0 +1,389 @@
+{
+  "train": {
+    "images_scanned": 4916,
+    "pred_persons_conf>=0.70": 16132,
+    "matched_to_gt_person": 360,
+    "unmatched_rate": 0.9777,
+    "imgs_with_unlabeled_person": 4711,
+    "sample_offenders": [
+      {
+        "img": "train/002609_jpg.rf.09f46a076cdaf6d8f78e65cc00e072b0.jpg",
+        "unmatched_persons": 6
+      },
+      {
+        "img": "train/004553_jpg.rf.09a67ed2a825723a2494abc67aa4dc6e.jpg",
+        "unmatched_persons": 10
+      },
+      {
+        "img": "train/000453_jpg.rf.0a0adfd2ca91ca10f8991a11aef0cc11.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "train/001294_jpg.rf.09f140b6ad576f6e6c210c6599954252.jpg",
+        "unmatched_persons": 8
+      },
+      {
+        "img": "train/002496_jpg.rf.098a28acf1944e07e088176ff0f72516.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "train/001255_jpg.rf.09f49cb82de5a8e0628bbfac984d099e.jpg",
+        "unmatched_persons": 5
+      },
+      {
+        "img": "train/000140_jpg.rf.0a0c0ae38e439bedadbaa8b161a12d9d.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "train/000422_jpg.rf.0a5103a89e93677194502c7b6b14037e.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "train/000840_jpg.rf.097127b00c7864016f44ca614d61934b.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "train/000955_jpg.rf.0a0e1b3ff6101584e468c5c02e15ad07.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "train/004887_jpg.rf.0a24a31017ad39c54ca2272d1fe228a3.jpg",
+        "unmatched_persons": 6
+      },
+      {
+        "img": "train/002290_jpg.rf.0a0969a878ead1c437eb42ced82c132c.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "train/003232_jpg.rf.09cd04866caf8e0b3fe7cc0fa9e5d83d.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "train/001602_jpg.rf.0a501c56d760142334c77ba229ccdcab.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "train/000599_jpg.rf.0a5ca960d162fe4b28b41a32df8a947f.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "train/004235_jpg.rf.0a49935342526c507efadd676131e528.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "train/003168_jpg.rf.09d957a30784e78700765c430b39e0db.jpg",
+        "unmatched_persons": 4
+      },
+      {
+        "img": "train/001541_jpg.rf.0a8163fbb1c1596b6d5205a1b06b188a.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "train/003047_jpg.rf.0a877374d3fdfacc889c5725a4af2252.jpg",
+        "unmatched_persons": 5
+      },
+      {
+        "img": "train/004639_jpg.rf.09cc98375bed6d18f980839d4942cb7b.jpg",
+        "unmatched_persons": 4
+      },
+      {
+        "img": "train/001775_jpg.rf.0af3f10cc7b61096a90ee3a383b18f8d.jpg",
+        "unmatched_persons": 9
+      },
+      {
+        "img": "train/002763_jpg.rf.0a9587bd4825456328f05ca227c60b0a.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "train/002243_jpg.rf.0a368d4dbc8f8a310d5b84da264ca430.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "train/001329_jpg.rf.0afba3ca9802badf03246c8819589f47.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "train/002248_jpg.rf.0aa3a487ba2c7fda5f5335e0fec0f803.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "train/003391_jpg.rf.0acbceb402c8c7e0ed8e6e7026dc44f5.jpg",
+        "unmatched_persons": 8
+      },
+      {
+        "img": "train/003755_jpg.rf.0b2e63dea10bd0142b3099133700f48c.jpg",
+        "unmatched_persons": 4
+      },
+      {
+        "img": "train/003726_jpg.rf.0b4db86548b31b82c691e2f0e12e1f22.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "train/001499_jpg.rf.0b7fb9938cb610f39c0054965dde6c2b.jpg",
+        "unmatched_persons": 5
+      },
+      {
+        "img": "train/004829_jpg.rf.0a1ac83c5ad893408139ed3b9c9258bb.jpg",
+        "unmatched_persons": 2
+      }
+    ]
+  },
+  "valid": {
+    "images_scanned": 1413,
+    "pred_persons_conf>=0.70": 4702,
+    "matched_to_gt_person": 95,
+    "unmatched_rate": 0.9798,
+    "imgs_with_unlabeled_person": 1363,
+    "sample_offenders": [
+      {
+        "img": "valid/006517_jpg.rf.6398a3bc2532d0a6bb8a04bd77a42da3.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "valid/006978_jpg.rf.6374c258f09609f114addf028ef91b02.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006368_jpg.rf.64c4fd2501b7e43eac52c8703c76bcdc.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "valid/005158_jpg.rf.638840b27d9367ee97429816cacdce5f.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "valid/006462_jpg.rf.65e8e4d2e837a6f3f555cbc87c6c82b9.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006500_jpg.rf.637828b811307df28cbc7e6ab7849157.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006608_jpg.rf.64971e4a1e0c2ab08b3cf800914b2c21.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "valid/006881_jpg.rf.6526e16f964af4a593176fb2da419c93.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006137_jpg.rf.63fce928e8e26f187f5440cd0614cdfd.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006086_jpg.rf.65dbc4866f6c4cc7f5af5d8b7d49f2f4.jpg",
+        "unmatched_persons": 8
+      },
+      {
+        "img": "valid/006022_jpg.rf.65022444b3afaf5fc34149d3abd1a370.jpg",
+        "unmatched_persons": 7
+      },
+      {
+        "img": "valid/005281_jpg.rf.67498ab122e07693f04fa4a08872296c.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006310_jpg.rf.6760d1990ee4b87b4c862caeb8d5a509.jpg",
+        "unmatched_persons": 7
+      },
+      {
+        "img": "valid/006047_jpg.rf.66e76c65773a8b8d0b72375b640d830c.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "valid/006653_jpg.rf.6630d94979eb9a882af60ecd5e9a2082.jpg",
+        "unmatched_persons": 4
+      },
+      {
+        "img": "valid/006738_jpg.rf.655edd335cea4aaa8753c43dad1750d7.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006121_jpg.rf.66c5e4d85fff003b1e245efbb17c1ae5.jpg",
+        "unmatched_persons": 4
+      },
+      {
+        "img": "valid/006836_jpg.rf.668d37e611b1c05afd426c5f217f1316.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "valid/005125_jpg.rf.64029fd19233b9dd9501986eb43458dc.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006585_jpg.rf.64b4ecac129680ddac8dae3d7a64dbfa.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "valid/006860_jpg.rf.65ba98d9033c04a4cbc50ae196ab390e.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "valid/006631_jpg.rf.65053b129cb6f985931c02d938864681.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "valid/006421_jpg.rf.66d46cfd58804610b884feca196fb325.jpg",
+        "unmatched_persons": 5
+      },
+      {
+        "img": "valid/004985_jpg.rf.66704eb9edff276fb76396349e4f969e.jpg",
+        "unmatched_persons": 9
+      },
+      {
+        "img": "valid/006565_jpg.rf.6866810dca15025cc5bcf61c8f0bb7b8.jpg",
+        "unmatched_persons": 4
+      },
+      {
+        "img": "valid/006223_jpg.rf.684e4caf4b0301baa29de4ff2763fcfa.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006982_jpg.rf.68a3067fc6d2db8a8d0f121d45404f82.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "valid/006596_jpg.rf.6a1e6aabeeff4e1241b59b6f231fc9d4.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "valid/005247_jpg.rf.6a83a7b450e7302a8ca0c03956da00e0.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "valid/006107_jpg.rf.69cc4bd807ac17ae8ee8fb41950b1761.jpg",
+        "unmatched_persons": 4
+      }
+    ]
+  },
+  "test": {
+    "images_scanned": 706,
+    "pred_persons_conf>=0.70": 2344,
+    "matched_to_gt_person": 60,
+    "unmatched_rate": 0.9744,
+    "imgs_with_unlabeled_person": 674,
+    "sample_offenders": [
+      {
+        "img": "test/005621_jpg.rf.019ac65a3794080ce969562363810839.jpg",
+        "unmatched_persons": 8
+      },
+      {
+        "img": "test/005881_jpg.rf.04b1c4654cb9503ad581b0bc5bf63078.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "test/005420_jpg.rf.0509d33a04258b33f8b1ff6c42e4cbf9.jpg",
+        "unmatched_persons": 6
+      },
+      {
+        "img": "test/005759_jpg.rf.07de5ca75383a86e65113f9744dcbe3d.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "test/005649_jpg.rf.048c7121c9615c005171d0503ca48d98.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "test/005799_jpg.rf.055c975eb21bbeb7a7084595a1442aa8.jpg",
+        "unmatched_persons": 7
+      },
+      {
+        "img": "test/005988_jpg.rf.068bc9276736defc8cddcc71422ebe95.jpg",
+        "unmatched_persons": 9
+      },
+      {
+        "img": "test/005697_jpg.rf.080eb15fce4b91c630770d16a74a5cb5.jpg",
+        "unmatched_persons": 5
+      },
+      {
+        "img": "test/005771_jpg.rf.075d05a283f7a2854b859b7179a767e8.jpg",
+        "unmatched_persons": 5
+      },
+      {
+        "img": "test/005709_jpg.rf.06bb20bbff10a08fb0c83a40dde212a0.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "test/005465_jpg.rf.04f8797bd4d136611ad2c6193ed6c9c8.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "test/005748_jpg.rf.042562c598bd593987e948ffc124dbf2.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "test/005441_jpg.rf.07965956c4f5badfc717b82c80c1dae0.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "test/005947_jpg.rf.06a27b190ebd669e5d8a4c1237865fc7.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "test/005930_jpg.rf.04db6e19f6785ab1cf2299fe3d6a2a45.jpg",
+        "unmatched_persons": 5
+      },
+      {
+        "img": "test/005518_jpg.rf.02f7ca2ec93767a51f81e7875fb5bb27.jpg",
+        "unmatched_persons": 8
+      },
+      {
+        "img": "test/005977_jpg.rf.0837f70aec04ac724e76973a8972aeb5.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "test/005593_jpg.rf.0365ee5e37aac72af46f964161f7efc1.jpg",
+        "unmatched_persons": 6
+      },
+      {
+        "img": "test/005342_jpg.rf.04c2bbfb71c496c51344a6c1cd36cae6.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "test/005458_jpg.rf.00652f687a031ca491fe9f07bc34fdcc.jpg",
+        "unmatched_persons": 7
+      },
+      {
+        "img": "test/005587_jpg.rf.00ab5befcaac78a73d4439e167553d61.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "test/005879_jpg.rf.07a546b162d24a68f3d1ced43ed34bb5.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "test/005483_jpg.rf.03ae88a97e2a8d60cbb9ee0afe228f15.jpg",
+        "unmatched_persons": 6
+      },
+      {
+        "img": "test/005873_jpg.rf.05f6103fa8160a3b0bb8f46559712948.jpg",
+        "unmatched_persons": 3
+      },
+      {
+        "img": "test/005410_jpg.rf.08c4ca3d744769e0e31170b469513216.jpg",
+        "unmatched_persons": 2
+      },
+      {
+        "img": "test/005595_jpg.rf.083f1c666ebb9d402b519cd45cb58ee0.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "test/005788_jpg.rf.084a521cf6cb9c4af315bfa3275ef6d5.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "test/005920_jpg.rf.0927d37879bd24328b39a5e3acbb9259.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "test/005874_jpg.rf.092556e78a0edb1d4be06bc04a336ffd.jpg",
+        "unmatched_persons": 1
+      },
+      {
+        "img": "test/005954_jpg.rf.0b31873a0ac49022d12d233d6380516e.jpg",
+        "unmatched_persons": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "train": {
+    "images": 4916,
+    "boxes": 18981,
+    "class_counts": {
+      "helmet": 13919,
+      "person": 450,
+      "head": 4612
+    },
+    "class_by_scale": {
+      "helmet": {
+        "med(32-96)": 7659,
+        "small(16-32)": 4416,
+        "tiny(<16px)": 385,
+        "large(>96)": 1459
+      },
+      "person": {
+        "large(>96)": 326,
+        "med(32-96)": 122,
+        "small(16-32)": 2
+      },
+      "head": {
+        "med(32-96)": 2651,
+        "small(16-32)": 1800,
+        "large(>96)": 95,
+        "tiny(<16px)": 66
+      }
+    },
+    "imgs_with_zero_boxes": 0,
+    "mean_boxes_per_img": 3.86,
+    "degenerate_boxes": 0,
+    "img_size_top5": {
+      "500x333": 960,
+      "500x375": 455,
+      "500x334": 215,
+      "500x332": 206,
+      "450x300": 135
+    }
+  },
+  "valid": {
+    "images": 1413,
+    "boxes": 5353,
+    "class_counts": {
+      "helmet": 3913,
+      "head": 1339,
+      "person": 101
+    },
+    "class_by_scale": {
+      "helmet": {
+        "med(32-96)": 2215,
+        "small(16-32)": 1152,
+        "large(>96)": 421,
+        "tiny(<16px)": 125
+      },
+      "head": {
+        "small(16-32)": 524,
+        "large(>96)": 27,
+        "med(32-96)": 767,
+        "tiny(<16px)": 21
+      },
+      "person": {
+        "large(>96)": 80,
+        "med(32-96)": 17,
+        "small(16-32)": 4
+      }
+    },
+    "imgs_with_zero_boxes": 0,
+    "mean_boxes_per_img": 3.79,
+    "degenerate_boxes": 0,
+    "img_size_top5": {
+      "500x333": 262,
+      "500x375": 112,
+      "500x332": 66,
+      "500x334": 61,
+      "450x300": 44
+    }
+  },
+  "test": {
+    "images": 706,
+    "boxes": 2705,
+    "class_counts": {
+      "helmet": 1915,
+      "head": 726,
+      "person": 64
+    },
+    "class_by_scale": {
+      "helmet": {
+        "small(16-32)": 580,
+        "med(32-96)": 1074,
+        "large(>96)": 225,
+        "tiny(<16px)": 36
+      },
+      "head": {
+        "med(32-96)": 456,
+        "large(>96)": 13,
+        "small(16-32)": 253,
+        "tiny(<16px)": 4
+      },
+      "person": {
+        "large(>96)": 56,
+        "med(32-96)": 8
+      }
+    },
+    "imgs_with_zero_boxes": 0,
+    "mean_boxes_per_img": 3.83,
+    "degenerate_boxes": 0,
+    "img_size_top5": {
+      "500x333": 143,
+      "500x375": 68,
+      "500x334": 44,
+      "500x332": 31,
+      "450x300": 21
+    }
+  }
+}

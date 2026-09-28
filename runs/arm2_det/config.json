@@ -1,0 +1,10 @@
+{
+  "dataset": "data/variants/arm2_det",
+  "out": "runs/arm2_det",
+  "model": "small",
+  "res": 728,
+  "epochs": 30,
+  "batch": 8,
+  "grad_accum": 2,
+  "lr": 0.0001
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "data/variants/arm1",
+  "out": "runs/arm2_cls_ft",
+  "epochs": 6,
+  "batch": 48,
+  "lr": 5e-05,
+  "unfreeze": true,
+  "model": "vit_small_patch14_dinov2.lvd142m",
+  "pad": 0.25
+}

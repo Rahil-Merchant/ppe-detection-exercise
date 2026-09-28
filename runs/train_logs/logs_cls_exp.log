@@ -1,0 +1,66 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{'epoch': 0, 'train_loss': 0.1817, 'val_acc': 0.9821}
+{'epoch': 1, 'train_loss': 0.1639, 'val_acc': 0.9815}
+{'epoch': 2, 'train_loss': 0.15, 'val_acc': 0.9831}
+{'epoch': 3, 'train_loss': 0.149, 'val_acc': 0.9811}
+{'epoch': 4, 'train_loss': 0.1475, 'val_acc': 0.9821}
+{'epoch': 5, 'train_loss': 0.1477, 'val_acc': 0.9821}
+{'epoch': 6, 'train_loss': 0.1455, 'val_acc': 0.9831}
+{'epoch': 7, 'train_loss': 0.1498, 'val_acc': 0.9819}
+best val acc 0.9831
+Traceback (most recent call last):
+  File "./src/cascade/train_classifier.py", line 128, in <module>
+    main()
+  File "./src/cascade/train_classifier.py", line 103, in main
+    loss = lossf(model(x), y)
+                 ^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/timm/models/vision_transformer.py", line 1308, in forward
+    x = self.forward_features(x, attn_mask=attn_mask, is_causal=is_causal)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/timm/models/vision_transformer.py", line 1258, in forward_features
+    x = self.blocks(x)
+        ^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/timm/models/vision_transformer.py", line 215, in forward
+    x = x + self.drop_path1(self.ls1(self.attn(self.norm1(x), attn_mask=attn_mask, is_causal=is_causal)))
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/timm/layers/attention.py", line 119, in forward
+    qkv = self.qkv(x).reshape(B, N, 3, self.num_heads, self.head_dim).permute(2, 0, 3, 1, 4)
+          ^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "../venv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 386.00 MiB. GPU 0 has a total capacity of 47.45 GiB of which 256.56 MiB is free. Process 299202 has 18.92 GiB memory in use. Process 334335 has 20.70 GiB memory in use. Including non-PyTorch memory, this process has 7.56 GiB memory in use. Of the allocated memory 7.32 GiB is allocated by PyTorch, and 50.42 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+CLS_EXPERIMENTS_DONE

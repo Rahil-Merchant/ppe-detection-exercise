@@ -1,0 +1,10 @@
+{
+  "dataset": "data/variants/arm1",
+  "out": "runs/arm1",
+  "model": "small",
+  "res": 728,
+  "epochs": 16,
+  "batch": 8,
+  "grad_accum": 2,
+  "lr": 0.0001
+}

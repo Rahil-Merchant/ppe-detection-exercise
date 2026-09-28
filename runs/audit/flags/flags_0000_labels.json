@@ -1,0 +1,902 @@
+[
+ {
+  "pos": 0,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "005102_jpg.rf.1de2e7df8b7b018bf22e019ac6c9d012.jpg",
+  "split": "valid",
+  "ann_id": 4007,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 1,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "005939_jpg.rf.d65e3ee44a9857375e22e45ab86c0f7e.jpg",
+  "split": "test",
+  "ann_id": 2348,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 2,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "005562_jpg.rf.c8ca00acac17f6b4aae9021430b35e39.jpg",
+  "split": "test",
+  "ann_id": 2198,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 3,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "005435_jpg.rf.bee586d08a401fa423038f1cc7ac83c7.jpg",
+  "split": "test",
+  "ann_id": 2126,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 4,
+  "label": "helmet",
+  "prob_helmet": 0.0,
+  "img": "006618_jpg.rf.b68dec8950bd93bb41ea64d9f1d1bbe7.jpg",
+  "split": "valid",
+  "ann_id": 1740,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 5,
+  "label": "helmet",
+  "prob_helmet": 0.0,
+  "img": "004918_jpg.rf.c628196db2a5efdc4c804450e9fc55f1.jpg",
+  "split": "train",
+  "ann_id": 3869,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 6,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "005939_jpg.rf.d65e3ee44a9857375e22e45ab86c0f7e.jpg",
+  "split": "test",
+  "ann_id": 2347,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 7,
+  "label": "helmet",
+  "prob_helmet": 0.0,
+  "img": "001888_jpg.rf.d2c7fcb1e21f7e9c34b6106471128e70.jpg",
+  "split": "train",
+  "ann_id": 4742,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 8,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "006591_jpg.rf.d1ba67c8b765de1174fcb86e54e6e3b5.jpg",
+  "split": "valid",
+  "ann_id": 2297,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 9,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "004243_jpg.rf.75c5a62ec8b12bd46c4d3555b75e24af.jpg",
+  "split": "train",
+  "ann_id": 15612,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 10,
+  "label": "helmet",
+  "prob_helmet": 0.0,
+  "img": "005570_jpg.rf.66db82fe73e3353ab1c1d2ab773c5c91.jpg",
+  "split": "test",
+  "ann_id": 1051,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 11,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "002376_jpg.rf.0c006168ced5a938ec77be04d1cb965b.jpg",
+  "split": "train",
+  "ann_id": 188,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 12,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "005986_jpg.rf.91bea98a01a292c24cd6276e85c45a8f.jpg",
+  "split": "test",
+  "ann_id": 1490,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 13,
+  "label": "helmet",
+  "prob_helmet": 0.0,
+  "img": "006250_jpg.rf.6163fa171539a54d85104032419d6c78.jpg",
+  "split": "valid",
+  "ann_id": 5321,
+  "bucket": "large(>96)"
+ },
+ {
+  "pos": 14,
+  "label": "head",
+  "prob_helmet": 1.0,
+  "img": "004743_jpg.rf.58f66167db025864f096478579256acc.jpg",
+  "split": "train",
+  "ann_id": 13464,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 15,
+  "label": "helmet",
+  "prob_helmet": 0.001,
+  "img": "006326_jpg.rf.12ffb4c2543c2b1ca0556ef8122df4ee.jpg",
+  "split": "valid",
+  "ann_id": 3789,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 16,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "006507_jpg.rf.edbfd7fff9ec3b23fbf63599de1722f7.jpg",
+  "split": "valid",
+  "ann_id": 2888,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 17,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "004726_jpg.rf.fcaf9e4bbdfc9fbf6a5c29e8a1dc45bf.jpg",
+  "split": "train",
+  "ann_id": 18649,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 18,
+  "label": "helmet",
+  "prob_helmet": 0.001,
+  "img": "002109_jpg.rf.7281fd4774d7f0ee2c992328b85e5c77.jpg",
+  "split": "train",
+  "ann_id": 15392,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 19,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "005639_jpg.rf.4783a19b458cb90f8c6204403be8f54d.jpg",
+  "split": "test",
+  "ann_id": 638,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 20,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "003303_jpg.rf.143148778f659d0e0efd3744acb02679.jpg",
+  "split": "train",
+  "ann_id": 770,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 21,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "003736_jpg.rf.f11a905e7176edf449c442ad1a976387.jpg",
+  "split": "train",
+  "ann_id": 17834,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 22,
+  "label": "helmet",
+  "prob_helmet": 0.001,
+  "img": "001691_jpg.rf.33d8fb5ab1a55d68db9cce42656195a6.jpg",
+  "split": "train",
+  "ann_id": 3266,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 23,
+  "label": "helmet",
+  "prob_helmet": 0.001,
+  "img": "004879_jpg.rf.62f64151c7d3883c01acb2b47d3dcbfc.jpg",
+  "split": "train",
+  "ann_id": 14283,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 24,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "003187_jpg.rf.fc78f7d8e1a1a5aad32cd10760815536.jpg",
+  "split": "train",
+  "ann_id": 18664,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 25,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "006060_jpg.rf.1279e43c27c1c8645897dbc7b32eaa64.jpg",
+  "split": "valid",
+  "ann_id": 3734,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 26,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "006022_jpg.rf.65022444b3afaf5fc34149d3abd1a370.jpg",
+  "split": "valid",
+  "ann_id": 34,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 27,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "001600_jpg.rf.6b36262affb3913586ba6faef43e78d4.jpg",
+  "split": "train",
+  "ann_id": 14876,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 28,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "005939_jpg.rf.d65e3ee44a9857375e22e45ab86c0f7e.jpg",
+  "split": "test",
+  "ann_id": 2346,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 29,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "006194_jpg.rf.599a75c715716502a8c3623ed686e97a.jpg",
+  "split": "valid",
+  "ann_id": 5163,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 30,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "002626_jpg.rf.91f7019eb163ff066a82fd1087b75b60.jpg",
+  "split": "train",
+  "ann_id": 17571,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 31,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "001894_jpg.rf.8da5dc90f56dcc40061da5daca3a4f3d.jpg",
+  "split": "train",
+  "ann_id": 17279,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 32,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "002460_jpg.rf.f1b5e6fedfe918c3b4b53f3d40307adf.jpg",
+  "split": "train",
+  "ann_id": 17889,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 33,
+  "label": "helmet",
+  "prob_helmet": 0.001,
+  "img": "001778_jpg.rf.ab53e6fd0f2f3cf1d3300e51f707cbab.jpg",
+  "split": "train",
+  "ann_id": 9539,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 34,
+  "label": "head",
+  "prob_helmet": 0.999,
+  "img": "004840_jpg.rf.c08e9aa8f87ba30aa99df0110eb8ca18.jpg",
+  "split": "train",
+  "ann_id": 3515,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 35,
+  "label": "head",
+  "prob_helmet": 0.998,
+  "img": "001413_jpg.rf.9dcb9d8df8a2563ecc83584c8baec6a3.jpg",
+  "split": "train",
+  "ann_id": 8491,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 36,
+  "label": "helmet",
+  "prob_helmet": 0.002,
+  "img": "002681_jpg.rf.b1aa14ee74fbe33b27983bcf4e0bece0.jpg",
+  "split": "train",
+  "ann_id": 10033,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 37,
+  "label": "helmet",
+  "prob_helmet": 0.002,
+  "img": "007009_jpg.rf.727fde96d97aabcfb5e02ab8bd3f2289.jpg",
+  "split": "valid",
+  "ann_id": 357,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 38,
+  "label": "helmet",
+  "prob_helmet": 0.002,
+  "img": "002822_jpg.rf.7d97efc2756632695407f3cf07dafbe5.jpg",
+  "split": "train",
+  "ann_id": 16257,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 39,
+  "label": "helmet",
+  "prob_helmet": 0.002,
+  "img": "000814_jpg.rf.10de8e3020398b65d94feb1f4d3aa05b.jpg",
+  "split": "train",
+  "ann_id": 498,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 40,
+  "label": "head",
+  "prob_helmet": 0.998,
+  "img": "002545_jpg.rf.837e295a547e2ae73c56db6cf3132569.jpg",
+  "split": "train",
+  "ann_id": 16649,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 41,
+  "label": "helmet",
+  "prob_helmet": 0.002,
+  "img": "003095_jpg.rf.a0d582d05a31747346c30ba4bfebd4e9.jpg",
+  "split": "train",
+  "ann_id": 8745,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 42,
+  "label": "head",
+  "prob_helmet": 0.998,
+  "img": "004618_jpg.rf.25964678ee07c3327febbb18f430b64d.jpg",
+  "split": "train",
+  "ann_id": 2137,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 43,
+  "label": "head",
+  "prob_helmet": 0.998,
+  "img": "004274_jpg.rf.3fcc344c0587c9dd140195fdf1112a60.jpg",
+  "split": "train",
+  "ann_id": 11686,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 44,
+  "label": "head",
+  "prob_helmet": 0.998,
+  "img": "002376_jpg.rf.0c006168ced5a938ec77be04d1cb965b.jpg",
+  "split": "train",
+  "ann_id": 183,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 45,
+  "label": "head",
+  "prob_helmet": 0.997,
+  "img": "006110_jpg.rf.9a99015b6f45b7a35633411caf6208ee.jpg",
+  "split": "valid",
+  "ann_id": 1155,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 46,
+  "label": "helmet",
+  "prob_helmet": 0.003,
+  "img": "002766_jpg.rf.e40ca8c362a0476472d4ed903acd4f78.jpg",
+  "split": "train",
+  "ann_id": 6156,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 47,
+  "label": "head",
+  "prob_helmet": 0.997,
+  "img": "005939_jpg.rf.d65e3ee44a9857375e22e45ab86c0f7e.jpg",
+  "split": "test",
+  "ann_id": 2345,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 48,
+  "label": "head",
+  "prob_helmet": 0.997,
+  "img": "002727_jpg.rf.cf7871355e24f8a7307062873a88c0e4.jpg",
+  "split": "train",
+  "ann_id": 4489,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 49,
+  "label": "helmet",
+  "prob_helmet": 0.003,
+  "img": "002934_jpg.rf.b52f09d74397ae791693b25b0ffd3373.jpg",
+  "split": "train",
+  "ann_id": 10220,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 50,
+  "label": "head",
+  "prob_helmet": 0.997,
+  "img": "007062_jpg.rf.3e634729c1a76e8e48f9a83747039022.jpg",
+  "split": "valid",
+  "ann_id": 4725,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 51,
+  "label": "head",
+  "prob_helmet": 0.997,
+  "img": "002957_jpg.rf.a59118b6b19a83d8a69579d6dacce35d.jpg",
+  "split": "train",
+  "ann_id": 9012,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 52,
+  "label": "helmet",
+  "prob_helmet": 0.004,
+  "img": "006910_jpg.rf.18971f24b561adc0dcfccb1f96934fc5.jpg",
+  "split": "valid",
+  "ann_id": 4023,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 53,
+  "label": "helmet",
+  "prob_helmet": 0.004,
+  "img": "006270_jpg.rf.c5e7ce2a30681924938d3bff978a357d.jpg",
+  "split": "valid",
+  "ann_id": 2039,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 54,
+  "label": "helmet",
+  "prob_helmet": 0.004,
+  "img": "000024_jpg.rf.4601c8d8f78bea62f71500d2e954cabe.jpg",
+  "split": "train",
+  "ann_id": 12295,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 55,
+  "label": "head",
+  "prob_helmet": 0.996,
+  "img": "001065_jpg.rf.e0c11ccffe73d64de893392c24e76bc3.jpg",
+  "split": "train",
+  "ann_id": 5963,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 56,
+  "label": "head",
+  "prob_helmet": 0.996,
+  "img": "001059_jpg.rf.2a05e55068444e3d78906616bfc0356d.jpg",
+  "split": "train",
+  "ann_id": 2489,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 57,
+  "label": "head",
+  "prob_helmet": 0.995,
+  "img": "005376_jpg.rf.a40700549c50160284002961e82432e0.jpg",
+  "split": "test",
+  "ann_id": 1758,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 58,
+  "label": "helmet",
+  "prob_helmet": 0.005,
+  "img": "006344_jpg.rf.69c50cb7a17037f64eaf21d58692a63d.jpg",
+  "split": "valid",
+  "ann_id": 139,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 59,
+  "label": "head",
+  "prob_helmet": 0.995,
+  "img": "003707_jpg.rf.90d0fb37e3fc05f91ecb921bc74b84a6.jpg",
+  "split": "train",
+  "ann_id": 17505,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 60,
+  "label": "head",
+  "prob_helmet": 0.994,
+  "img": "003508_jpg.rf.ef79a73e913bc2069e06077d628e0708.jpg",
+  "split": "train",
+  "ann_id": 17734,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 61,
+  "label": "head",
+  "prob_helmet": 0.994,
+  "img": "005990_jpg.rf.f28a41b011109fdf6b212dee6bc43767.jpg",
+  "split": "test",
+  "ann_id": 2524,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 62,
+  "label": "head",
+  "prob_helmet": 0.993,
+  "img": "000052_jpg.rf.e8155468cc06104cebcd1fceb549e1b9.jpg",
+  "split": "train",
+  "ann_id": 6446,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 63,
+  "label": "helmet",
+  "prob_helmet": 0.007,
+  "img": "006076_jpg.rf.402674decb44126f8cffd1e63be5263f.jpg",
+  "split": "valid",
+  "ann_id": 4720,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 64,
+  "label": "head",
+  "prob_helmet": 0.992,
+  "img": "003705_jpg.rf.14fe6f0dbda1e5ff69cc13ecf87b8a19.jpg",
+  "split": "train",
+  "ann_id": 910,
+  "bucket": "large(>96)"
+ },
+ {
+  "pos": 65,
+  "label": "helmet",
+  "prob_helmet": 0.008,
+  "img": "004288_jpg.rf.a5af98c628fab1e6fb20557a23814a5a.jpg",
+  "split": "train",
+  "ann_id": 9053,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 66,
+  "label": "head",
+  "prob_helmet": 0.992,
+  "img": "005239_jpg.rf.5f1ecfd1a2f522498672fba5e0e0523f.jpg",
+  "split": "valid",
+  "ann_id": 5288,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 67,
+  "label": "head",
+  "prob_helmet": 0.992,
+  "img": "004840_jpg.rf.c08e9aa8f87ba30aa99df0110eb8ca18.jpg",
+  "split": "train",
+  "ann_id": 3514,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 68,
+  "label": "head",
+  "prob_helmet": 0.992,
+  "img": "000891_jpg.rf.3ecc189ea56497071490a966682cc6f3.jpg",
+  "split": "train",
+  "ann_id": 11642,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 69,
+  "label": "head",
+  "prob_helmet": 0.992,
+  "img": "003999_jpg.rf.92493b403da27accf3536992679c001f.jpg",
+  "split": "train",
+  "ann_id": 17598,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 70,
+  "label": "head",
+  "prob_helmet": 0.992,
+  "img": "000437_jpg.rf.002f4ad4e5d0076f80c86654a7dc9ef1.jpg",
+  "split": "train",
+  "ann_id": 6960,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 71,
+  "label": "head",
+  "prob_helmet": 0.992,
+  "img": "002067_jpg.rf.4ceb33cef65fd1ba122dc367235d628b.jpg",
+  "split": "train",
+  "ann_id": 12745,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 72,
+  "label": "head",
+  "prob_helmet": 0.992,
+  "img": "000898_jpg.rf.b1561c02df2f417c425f2d240684267d.jpg",
+  "split": "train",
+  "ann_id": 9956,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 73,
+  "label": "head",
+  "prob_helmet": 0.991,
+  "img": "006190_jpg.rf.1c19b017339a41863d10bc7c760af7af.jpg",
+  "split": "valid",
+  "ann_id": 3939,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 74,
+  "label": "head",
+  "prob_helmet": 0.991,
+  "img": "003391_jpg.rf.0acbceb402c8c7e0ed8e6e7026dc44f5.jpg",
+  "split": "train",
+  "ann_id": 125,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 75,
+  "label": "helmet",
+  "prob_helmet": 0.009,
+  "img": "001305_jpg.rf.a73535f674373fceaece2fa44714134c.jpg",
+  "split": "train",
+  "ann_id": 9185,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 76,
+  "label": "head",
+  "prob_helmet": 0.991,
+  "img": "005391_jpg.rf.fb129799e84452f591b9502ccba8f082.jpg",
+  "split": "test",
+  "ann_id": 2613,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 77,
+  "label": "head",
+  "prob_helmet": 0.991,
+  "img": "001667_jpg.rf.0b69e94e1a50431711e53cfe737dcd34.jpg",
+  "split": "train",
+  "ann_id": 169,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 78,
+  "label": "head",
+  "prob_helmet": 0.99,
+  "img": "002376_jpg.rf.0c006168ced5a938ec77be04d1cb965b.jpg",
+  "split": "train",
+  "ann_id": 189,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 79,
+  "label": "head",
+  "prob_helmet": 0.99,
+  "img": "002545_jpg.rf.837e295a547e2ae73c56db6cf3132569.jpg",
+  "split": "train",
+  "ann_id": 16651,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 80,
+  "label": "head",
+  "prob_helmet": 0.99,
+  "img": "003667_jpg.rf.719570ebf7cd8f7e8084155c83f0765b.jpg",
+  "split": "train",
+  "ann_id": 15363,
+  "bucket": "large(>96)"
+ },
+ {
+  "pos": 81,
+  "label": "helmet",
+  "prob_helmet": 0.01,
+  "img": "003356_jpg.rf.5ab71bd2f617499038c45c86439c7888.jpg",
+  "split": "train",
+  "ann_id": 13636,
+  "bucket": "tiny(<16px)"
+ },
+ {
+  "pos": 82,
+  "label": "head",
+  "prob_helmet": 0.99,
+  "img": "004892_jpg.rf.5c71b6d5e3575d8407dec7a224bf8b22.jpg",
+  "split": "train",
+  "ann_id": 13721,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 83,
+  "label": "head",
+  "prob_helmet": 0.989,
+  "img": "006640_jpg.rf.dfb7c7e1adb047af8094e3fbd4fe2ae1.jpg",
+  "split": "valid",
+  "ann_id": 2667,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 84,
+  "label": "helmet",
+  "prob_helmet": 0.011,
+  "img": "004507_jpg.rf.74cfac8834d73926f3b36f2d25df4e88.jpg",
+  "split": "train",
+  "ann_id": 15513,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 85,
+  "label": "helmet",
+  "prob_helmet": 0.011,
+  "img": "005360_jpg.rf.894462b44db9175c5de990298365b5b5.jpg",
+  "split": "test",
+  "ann_id": 1434,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 86,
+  "label": "head",
+  "prob_helmet": 0.988,
+  "img": "001417_jpg.rf.3100221cfd30f721b8876ac6fba314d3.jpg",
+  "split": "train",
+  "ann_id": 3031,
+  "bucket": "large(>96)"
+ },
+ {
+  "pos": 87,
+  "label": "helmet",
+  "prob_helmet": 0.012,
+  "img": "006300_jpg.rf.6b626438338f0f01258b4a6d545dbf09.jpg",
+  "split": "valid",
+  "ann_id": 151,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 88,
+  "label": "helmet",
+  "prob_helmet": 0.012,
+  "img": "000579_jpg.rf.c5ed8d34278f86905736d3b9089b0377.jpg",
+  "split": "train",
+  "ann_id": 3816,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 89,
+  "label": "head",
+  "prob_helmet": 0.988,
+  "img": "001579_jpg.rf.0ab410f9dfb8eea8f28ba9608e654ce5.jpg",
+  "split": "train",
+  "ann_id": 98,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 90,
+  "label": "head",
+  "prob_helmet": 0.987,
+  "img": "005883_jpg.rf.3199595d61d965e45f41a5ae05abaaf1.jpg",
+  "split": "test",
+  "ann_id": 484,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 91,
+  "label": "helmet",
+  "prob_helmet": 0.013,
+  "img": "002138_jpg.rf.363490a292024f0fb97353fcd619acc7.jpg",
+  "split": "train",
+  "ann_id": 3421,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 92,
+  "label": "head",
+  "prob_helmet": 0.987,
+  "img": "001621_jpg.rf.b35eb4c04c39a95321e6533ee6baf6a6.jpg",
+  "split": "train",
+  "ann_id": 10086,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 93,
+  "label": "head",
+  "prob_helmet": 0.987,
+  "img": "001901_jpg.rf.92413af129976941438660f3aecc4805.jpg",
+  "split": "train",
+  "ann_id": 17587,
+  "bucket": "small(16-32)"
+ },
+ {
+  "pos": 94,
+  "label": "head",
+  "prob_helmet": 0.987,
+  "img": "001446_jpg.rf.5f8ac328b197b75bd78abc29d148fe05.jpg",
+  "split": "train",
+  "ann_id": 14047,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 95,
+  "label": "head",
+  "prob_helmet": 0.986,
+  "img": "001329_jpg.rf.0afba3ca9802badf03246c8819589f47.jpg",
+  "split": "train",
+  "ann_id": 116,
+  "bucket": "large(>96)"
+ },
+ {
+  "pos": 96,
+  "label": "helmet",
+  "prob_helmet": 0.014,
+  "img": "004234_jpg.rf.a83e3d3b27f24e5ccd9be989d5efc152.jpg",
+  "split": "train",
+  "ann_id": 9321,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 97,
+  "label": "head",
+  "prob_helmet": 0.986,
+  "img": "001643_jpg.rf.edaffebdaeb1adc923fac8bca4557d6e.jpg",
+  "split": "train",
+  "ann_id": 17674,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 98,
+  "label": "head",
+  "prob_helmet": 0.986,
+  "img": "000385_jpg.rf.423f8437769772f22e1e813d97cbdf93.jpg",
+  "split": "train",
+  "ann_id": 11950,
+  "bucket": "med(32-96)"
+ },
+ {
+  "pos": 99,
+  "label": "head",
+  "prob_helmet": 0.986,
+  "img": "005578_jpg.rf.61853015cfb194391c2ab0277a5811b5.jpg",
+  "split": "test",
+  "ann_id": 1009,
+  "bucket": "med(32-96)"
+ }
+]

@@ -1,0 +1,1239 @@
+{
+  "n_images": 682,
+  "n_gt_violations": 755,
+  "iou_match": 0.3,
+  "curve": [
+    {
+      "threshold": 0.05,
+      "tp": 724,
+      "fp": 224,
+      "miss_rate": 0.0411,
+      "fa_per_100_imgs": 32.845,
+      "precision": 0.7637,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 4,
+          "total": 466,
+          "rate": 0.0086
+        },
+        "small(16-32)": {
+          "missed": 22,
+          "total": 268,
+          "rate": 0.0821
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.075,
+      "tp": 724,
+      "fp": 126,
+      "miss_rate": 0.0411,
+      "fa_per_100_imgs": 18.475,
+      "precision": 0.8518,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 4,
+          "total": 466,
+          "rate": 0.0086
+        },
+        "small(16-32)": {
+          "missed": 22,
+          "total": 268,
+          "rate": 0.0821
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.1,
+      "tp": 719,
+      "fp": 90,
+      "miss_rate": 0.0477,
+      "fa_per_100_imgs": 13.196,
+      "precision": 0.8888,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 7,
+          "total": 466,
+          "rate": 0.015
+        },
+        "small(16-32)": {
+          "missed": 24,
+          "total": 268,
+          "rate": 0.0896
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.125,
+      "tp": 716,
+      "fp": 69,
+      "miss_rate": 0.0517,
+      "fa_per_100_imgs": 10.117,
+      "precision": 0.9121,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 8,
+          "total": 466,
+          "rate": 0.0172
+        },
+        "small(16-32)": {
+          "missed": 26,
+          "total": 268,
+          "rate": 0.097
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.15,
+      "tp": 715,
+      "fp": 53,
+      "miss_rate": 0.053,
+      "fa_per_100_imgs": 7.771,
+      "precision": 0.931,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 8,
+          "total": 466,
+          "rate": 0.0172
+        },
+        "small(16-32)": {
+          "missed": 27,
+          "total": 268,
+          "rate": 0.1007
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.175,
+      "tp": 714,
+      "fp": 45,
+      "miss_rate": 0.0543,
+      "fa_per_100_imgs": 6.598,
+      "precision": 0.9407,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 9,
+          "total": 466,
+          "rate": 0.0193
+        },
+        "small(16-32)": {
+          "missed": 27,
+          "total": 268,
+          "rate": 0.1007
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.2,
+      "tp": 711,
+      "fp": 36,
+      "miss_rate": 0.0583,
+      "fa_per_100_imgs": 5.279,
+      "precision": 0.9518,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 10,
+          "total": 466,
+          "rate": 0.0215
+        },
+        "small(16-32)": {
+          "missed": 29,
+          "total": 268,
+          "rate": 0.1082
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.225,
+      "tp": 710,
+      "fp": 32,
+      "miss_rate": 0.0596,
+      "fa_per_100_imgs": 4.692,
+      "precision": 0.9569,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 11,
+          "total": 466,
+          "rate": 0.0236
+        },
+        "small(16-32)": {
+          "missed": 29,
+          "total": 268,
+          "rate": 0.1082
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.25,
+      "tp": 709,
+      "fp": 28,
+      "miss_rate": 0.0609,
+      "fa_per_100_imgs": 4.106,
+      "precision": 0.962,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 11,
+          "total": 466,
+          "rate": 0.0236
+        },
+        "small(16-32)": {
+          "missed": 30,
+          "total": 268,
+          "rate": 0.1119
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.275,
+      "tp": 709,
+      "fp": 25,
+      "miss_rate": 0.0609,
+      "fa_per_100_imgs": 3.666,
+      "precision": 0.9659,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 11,
+          "total": 466,
+          "rate": 0.0236
+        },
+        "small(16-32)": {
+          "missed": 30,
+          "total": 268,
+          "rate": 0.1119
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.3,
+      "tp": 707,
+      "fp": 19,
+      "miss_rate": 0.0636,
+      "fa_per_100_imgs": 2.786,
+      "precision": 0.9738,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 12,
+          "total": 466,
+          "rate": 0.0258
+        },
+        "small(16-32)": {
+          "missed": 31,
+          "total": 268,
+          "rate": 0.1157
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.325,
+      "tp": 704,
+      "fp": 15,
+      "miss_rate": 0.0675,
+      "fa_per_100_imgs": 2.199,
+      "precision": 0.9791,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 14,
+          "total": 466,
+          "rate": 0.03
+        },
+        "small(16-32)": {
+          "missed": 32,
+          "total": 268,
+          "rate": 0.1194
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.35,
+      "tp": 704,
+      "fp": 15,
+      "miss_rate": 0.0675,
+      "fa_per_100_imgs": 2.199,
+      "precision": 0.9791,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 14,
+          "total": 466,
+          "rate": 0.03
+        },
+        "small(16-32)": {
+          "missed": 32,
+          "total": 268,
+          "rate": 0.1194
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.375,
+      "tp": 703,
+      "fp": 11,
+      "miss_rate": 0.0689,
+      "fa_per_100_imgs": 1.613,
+      "precision": 0.9846,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 14,
+          "total": 466,
+          "rate": 0.03
+        },
+        "small(16-32)": {
+          "missed": 33,
+          "total": 268,
+          "rate": 0.1231
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.4,
+      "tp": 701,
+      "fp": 11,
+      "miss_rate": 0.0715,
+      "fa_per_100_imgs": 1.613,
+      "precision": 0.9846,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 14,
+          "total": 466,
+          "rate": 0.03
+        },
+        "small(16-32)": {
+          "missed": 34,
+          "total": 268,
+          "rate": 0.1269
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.425,
+      "tp": 699,
+      "fp": 10,
+      "miss_rate": 0.0742,
+      "fa_per_100_imgs": 1.466,
+      "precision": 0.9859,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 16,
+          "total": 466,
+          "rate": 0.0343
+        },
+        "small(16-32)": {
+          "missed": 34,
+          "total": 268,
+          "rate": 0.1269
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.45,
+      "tp": 696,
+      "fp": 6,
+      "miss_rate": 0.0781,
+      "fa_per_100_imgs": 0.88,
+      "precision": 0.9915,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 18,
+          "total": 466,
+          "rate": 0.0386
+        },
+        "small(16-32)": {
+          "missed": 35,
+          "total": 268,
+          "rate": 0.1306
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.475,
+      "tp": 694,
+      "fp": 5,
+      "miss_rate": 0.0808,
+      "fa_per_100_imgs": 0.733,
+      "precision": 0.9928,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 18,
+          "total": 466,
+          "rate": 0.0386
+        },
+        "small(16-32)": {
+          "missed": 37,
+          "total": 268,
+          "rate": 0.1381
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.5,
+      "tp": 692,
+      "fp": 4,
+      "miss_rate": 0.0834,
+      "fa_per_100_imgs": 0.587,
+      "precision": 0.9943,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 19,
+          "total": 466,
+          "rate": 0.0408
+        },
+        "small(16-32)": {
+          "missed": 38,
+          "total": 268,
+          "rate": 0.1418
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.525,
+      "tp": 692,
+      "fp": 3,
+      "miss_rate": 0.0834,
+      "fa_per_100_imgs": 0.44,
+      "precision": 0.9957,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 19,
+          "total": 466,
+          "rate": 0.0408
+        },
+        "small(16-32)": {
+          "missed": 38,
+          "total": 268,
+          "rate": 0.1418
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.55,
+      "tp": 686,
+      "fp": 3,
+      "miss_rate": 0.0914,
+      "fa_per_100_imgs": 0.44,
+      "precision": 0.9956,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 21,
+          "total": 466,
+          "rate": 0.0451
+        },
+        "small(16-32)": {
+          "missed": 42,
+          "total": 268,
+          "rate": 0.1567
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.575,
+      "tp": 677,
+      "fp": 2,
+      "miss_rate": 0.1033,
+      "fa_per_100_imgs": 0.293,
+      "precision": 0.9971,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 25,
+          "total": 466,
+          "rate": 0.0536
+        },
+        "small(16-32)": {
+          "missed": 47,
+          "total": 268,
+          "rate": 0.1754
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.6,
+      "tp": 667,
+      "fp": 2,
+      "miss_rate": 0.1166,
+      "fa_per_100_imgs": 0.293,
+      "precision": 0.997,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 30,
+          "total": 466,
+          "rate": 0.0644
+        },
+        "small(16-32)": {
+          "missed": 52,
+          "total": 268,
+          "rate": 0.194
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.625,
+      "tp": 662,
+      "fp": 2,
+      "miss_rate": 0.1232,
+      "fa_per_100_imgs": 0.293,
+      "precision": 0.997,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 32,
+          "total": 466,
+          "rate": 0.0687
+        },
+        "small(16-32)": {
+          "missed": 55,
+          "total": 268,
+          "rate": 0.2052
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.65,
+      "tp": 657,
+      "fp": 2,
+      "miss_rate": 0.1298,
+      "fa_per_100_imgs": 0.293,
+      "precision": 0.997,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 34,
+          "total": 466,
+          "rate": 0.073
+        },
+        "small(16-32)": {
+          "missed": 58,
+          "total": 268,
+          "rate": 0.2164
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.675,
+      "tp": 648,
+      "fp": 1,
+      "miss_rate": 0.1417,
+      "fa_per_100_imgs": 0.147,
+      "precision": 0.9985,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 37,
+          "total": 466,
+          "rate": 0.0794
+        },
+        "small(16-32)": {
+          "missed": 64,
+          "total": 268,
+          "rate": 0.2388
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.7,
+      "tp": 644,
+      "fp": 0,
+      "miss_rate": 0.147,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 2,
+          "total": 15,
+          "rate": 0.1333
+        },
+        "med(32-96)": {
+          "missed": 39,
+          "total": 466,
+          "rate": 0.0837
+        },
+        "small(16-32)": {
+          "missed": 65,
+          "total": 268,
+          "rate": 0.2425
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.725,
+      "tp": 633,
+      "fp": 0,
+      "miss_rate": 0.1616,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 2,
+          "total": 15,
+          "rate": 0.1333
+        },
+        "med(32-96)": {
+          "missed": 45,
+          "total": 466,
+          "rate": 0.0966
+        },
+        "small(16-32)": {
+          "missed": 70,
+          "total": 268,
+          "rate": 0.2612
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.75,
+      "tp": 617,
+      "fp": 0,
+      "miss_rate": 0.1828,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 3,
+          "total": 15,
+          "rate": 0.2
+        },
+        "med(32-96)": {
+          "missed": 49,
+          "total": 466,
+          "rate": 0.1052
+        },
+        "small(16-32)": {
+          "missed": 81,
+          "total": 268,
+          "rate": 0.3022
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.775,
+      "tp": 592,
+      "fp": 0,
+      "miss_rate": 0.2159,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 4,
+          "total": 15,
+          "rate": 0.2667
+        },
+        "med(32-96)": {
+          "missed": 57,
+          "total": 466,
+          "rate": 0.1223
+        },
+        "small(16-32)": {
+          "missed": 97,
+          "total": 268,
+          "rate": 0.3619
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.8,
+      "tp": 560,
+      "fp": 0,
+      "miss_rate": 0.2583,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 4,
+          "total": 15,
+          "rate": 0.2667
+        },
+        "med(32-96)": {
+          "missed": 73,
+          "total": 466,
+          "rate": 0.1567
+        },
+        "small(16-32)": {
+          "missed": 113,
+          "total": 268,
+          "rate": 0.4216
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.825,
+      "tp": 499,
+      "fp": 0,
+      "miss_rate": 0.3391,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 5,
+          "total": 15,
+          "rate": 0.3333
+        },
+        "med(32-96)": {
+          "missed": 100,
+          "total": 466,
+          "rate": 0.2146
+        },
+        "small(16-32)": {
+          "missed": 146,
+          "total": 268,
+          "rate": 0.5448
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    {
+      "threshold": 0.85,
+      "tp": 415,
+      "fp": 0,
+      "miss_rate": 0.4503,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 5,
+          "total": 15,
+          "rate": 0.3333
+        },
+        "med(32-96)": {
+          "missed": 139,
+          "total": 466,
+          "rate": 0.2983
+        },
+        "small(16-32)": {
+          "missed": 190,
+          "total": 268,
+          "rate": 0.709
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.875,
+      "tp": 252,
+      "fp": 0,
+      "miss_rate": 0.6662,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 8,
+          "total": 15,
+          "rate": 0.5333
+        },
+        "med(32-96)": {
+          "missed": 235,
+          "total": 466,
+          "rate": 0.5043
+        },
+        "small(16-32)": {
+          "missed": 254,
+          "total": 268,
+          "rate": 0.9478
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.9,
+      "tp": 62,
+      "fp": 0,
+      "miss_rate": 0.9179,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 13,
+          "total": 15,
+          "rate": 0.8667
+        },
+        "med(32-96)": {
+          "missed": 406,
+          "total": 466,
+          "rate": 0.8712
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.925,
+      "tp": 0,
+      "fp": 0,
+      "miss_rate": 1.0,
+      "fa_per_100_imgs": 0.0,
+      "precision": 0.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 15,
+          "total": 15,
+          "rate": 1.0
+        },
+        "med(32-96)": {
+          "missed": 466,
+          "total": 466,
+          "rate": 1.0
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.95,
+      "tp": 0,
+      "fp": 0,
+      "miss_rate": 1.0,
+      "fa_per_100_imgs": 0.0,
+      "precision": 0.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 15,
+          "total": 15,
+          "rate": 1.0
+        },
+        "med(32-96)": {
+          "missed": 466,
+          "total": 466,
+          "rate": 1.0
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.975,
+      "tp": 0,
+      "fp": 0,
+      "miss_rate": 1.0,
+      "fa_per_100_imgs": 0.0,
+      "precision": 0.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 15,
+          "total": 15,
+          "rate": 1.0
+        },
+        "med(32-96)": {
+          "missed": 466,
+          "total": 466,
+          "rate": 1.0
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    }
+  ],
+  "operating_points": {
+    "fa<=0.5/100": {
+      "threshold": 0.525,
+      "tp": 692,
+      "fp": 3,
+      "miss_rate": 0.0834,
+      "fa_per_100_imgs": 0.44,
+      "precision": 0.9957,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 19,
+          "total": 466,
+          "rate": 0.0408
+        },
+        "small(16-32)": {
+          "missed": 38,
+          "total": 268,
+          "rate": 0.1418
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    "fa<=1.0/100": {
+      "threshold": 0.45,
+      "tp": 696,
+      "fp": 6,
+      "miss_rate": 0.0781,
+      "fa_per_100_imgs": 0.88,
+      "precision": 0.9915,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 18,
+          "total": 466,
+          "rate": 0.0386
+        },
+        "small(16-32)": {
+          "missed": 35,
+          "total": 268,
+          "rate": 0.1306
+        },
+        "tiny(<16px)": {
+          "missed": 5,
+          "total": 6,
+          "rate": 0.8333
+        }
+      }
+    },
+    "fa<=2.0/100": {
+      "threshold": 0.375,
+      "tp": 703,
+      "fp": 11,
+      "miss_rate": 0.0689,
+      "fa_per_100_imgs": 1.613,
+      "precision": 0.9846,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 14,
+          "total": 466,
+          "rate": 0.03
+        },
+        "small(16-32)": {
+          "missed": 33,
+          "total": 268,
+          "rate": 0.1231
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    }
+  }
+}

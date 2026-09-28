@@ -1,0 +1,1239 @@
+{
+  "n_images": 682,
+  "n_gt_violations": 755,
+  "iou_match": 0.3,
+  "curve": [
+    {
+      "threshold": 0.05,
+      "tp": 754,
+      "fp": 769,
+      "miss_rate": 0.0013,
+      "fa_per_100_imgs": 112.757,
+      "precision": 0.4951,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 0,
+          "total": 15,
+          "rate": 0.0
+        },
+        "med(32-96)": {
+          "missed": 0,
+          "total": 466,
+          "rate": 0.0
+        },
+        "small(16-32)": {
+          "missed": 1,
+          "total": 268,
+          "rate": 0.0037
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.075,
+      "tp": 753,
+      "fp": 416,
+      "miss_rate": 0.0026,
+      "fa_per_100_imgs": 60.997,
+      "precision": 0.6441,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 0,
+          "total": 15,
+          "rate": 0.0
+        },
+        "med(32-96)": {
+          "missed": 0,
+          "total": 466,
+          "rate": 0.0
+        },
+        "small(16-32)": {
+          "missed": 2,
+          "total": 268,
+          "rate": 0.0075
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.1,
+      "tp": 753,
+      "fp": 296,
+      "miss_rate": 0.0026,
+      "fa_per_100_imgs": 43.402,
+      "precision": 0.7178,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 0,
+          "total": 15,
+          "rate": 0.0
+        },
+        "med(32-96)": {
+          "missed": 0,
+          "total": 466,
+          "rate": 0.0
+        },
+        "small(16-32)": {
+          "missed": 2,
+          "total": 268,
+          "rate": 0.0075
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.125,
+      "tp": 751,
+      "fp": 226,
+      "miss_rate": 0.0053,
+      "fa_per_100_imgs": 33.138,
+      "precision": 0.7687,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 0,
+          "total": 15,
+          "rate": 0.0
+        },
+        "med(32-96)": {
+          "missed": 2,
+          "total": 466,
+          "rate": 0.0043
+        },
+        "small(16-32)": {
+          "missed": 2,
+          "total": 268,
+          "rate": 0.0075
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.15,
+      "tp": 746,
+      "fp": 183,
+      "miss_rate": 0.0119,
+      "fa_per_100_imgs": 26.833,
+      "precision": 0.803,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 0,
+          "total": 15,
+          "rate": 0.0
+        },
+        "med(32-96)": {
+          "missed": 5,
+          "total": 466,
+          "rate": 0.0107
+        },
+        "small(16-32)": {
+          "missed": 4,
+          "total": 268,
+          "rate": 0.0149
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.175,
+      "tp": 746,
+      "fp": 143,
+      "miss_rate": 0.0119,
+      "fa_per_100_imgs": 20.968,
+      "precision": 0.8391,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 0,
+          "total": 15,
+          "rate": 0.0
+        },
+        "med(32-96)": {
+          "missed": 5,
+          "total": 466,
+          "rate": 0.0107
+        },
+        "small(16-32)": {
+          "missed": 4,
+          "total": 268,
+          "rate": 0.0149
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.2,
+      "tp": 744,
+      "fp": 116,
+      "miss_rate": 0.0146,
+      "fa_per_100_imgs": 17.009,
+      "precision": 0.8651,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 0,
+          "total": 15,
+          "rate": 0.0
+        },
+        "med(32-96)": {
+          "missed": 5,
+          "total": 466,
+          "rate": 0.0107
+        },
+        "small(16-32)": {
+          "missed": 6,
+          "total": 268,
+          "rate": 0.0224
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.225,
+      "tp": 742,
+      "fp": 96,
+      "miss_rate": 0.0172,
+      "fa_per_100_imgs": 14.076,
+      "precision": 0.8854,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 5,
+          "total": 466,
+          "rate": 0.0107
+        },
+        "small(16-32)": {
+          "missed": 7,
+          "total": 268,
+          "rate": 0.0261
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.25,
+      "tp": 741,
+      "fp": 82,
+      "miss_rate": 0.0185,
+      "fa_per_100_imgs": 12.023,
+      "precision": 0.9004,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 5,
+          "total": 466,
+          "rate": 0.0107
+        },
+        "small(16-32)": {
+          "missed": 8,
+          "total": 268,
+          "rate": 0.0299
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.275,
+      "tp": 739,
+      "fp": 72,
+      "miss_rate": 0.0212,
+      "fa_per_100_imgs": 10.557,
+      "precision": 0.9112,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 5,
+          "total": 466,
+          "rate": 0.0107
+        },
+        "small(16-32)": {
+          "missed": 10,
+          "total": 268,
+          "rate": 0.0373
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.3,
+      "tp": 736,
+      "fp": 62,
+      "miss_rate": 0.0252,
+      "fa_per_100_imgs": 9.091,
+      "precision": 0.9223,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 6,
+          "total": 466,
+          "rate": 0.0129
+        },
+        "small(16-32)": {
+          "missed": 12,
+          "total": 268,
+          "rate": 0.0448
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.325,
+      "tp": 733,
+      "fp": 54,
+      "miss_rate": 0.0291,
+      "fa_per_100_imgs": 7.918,
+      "precision": 0.9314,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 7,
+          "total": 466,
+          "rate": 0.015
+        },
+        "small(16-32)": {
+          "missed": 14,
+          "total": 268,
+          "rate": 0.0522
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.35,
+      "tp": 732,
+      "fp": 50,
+      "miss_rate": 0.0305,
+      "fa_per_100_imgs": 7.331,
+      "precision": 0.9361,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 8,
+          "total": 466,
+          "rate": 0.0172
+        },
+        "small(16-32)": {
+          "missed": 14,
+          "total": 268,
+          "rate": 0.0522
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.375,
+      "tp": 732,
+      "fp": 42,
+      "miss_rate": 0.0305,
+      "fa_per_100_imgs": 6.158,
+      "precision": 0.9457,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 8,
+          "total": 466,
+          "rate": 0.0172
+        },
+        "small(16-32)": {
+          "missed": 14,
+          "total": 268,
+          "rate": 0.0522
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.4,
+      "tp": 730,
+      "fp": 42,
+      "miss_rate": 0.0331,
+      "fa_per_100_imgs": 6.158,
+      "precision": 0.9456,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 9,
+          "total": 466,
+          "rate": 0.0193
+        },
+        "small(16-32)": {
+          "missed": 15,
+          "total": 268,
+          "rate": 0.056
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.425,
+      "tp": 727,
+      "fp": 37,
+      "miss_rate": 0.0371,
+      "fa_per_100_imgs": 5.425,
+      "precision": 0.9516,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 9,
+          "total": 466,
+          "rate": 0.0193
+        },
+        "small(16-32)": {
+          "missed": 18,
+          "total": 268,
+          "rate": 0.0672
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.45,
+      "tp": 726,
+      "fp": 33,
+      "miss_rate": 0.0384,
+      "fa_per_100_imgs": 4.839,
+      "precision": 0.9565,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 10,
+          "total": 466,
+          "rate": 0.0215
+        },
+        "small(16-32)": {
+          "missed": 18,
+          "total": 268,
+          "rate": 0.0672
+        },
+        "tiny(<16px)": {
+          "missed": 0,
+          "total": 6,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "threshold": 0.475,
+      "tp": 722,
+      "fp": 25,
+      "miss_rate": 0.0437,
+      "fa_per_100_imgs": 3.666,
+      "precision": 0.9665,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 12,
+          "total": 466,
+          "rate": 0.0258
+        },
+        "small(16-32)": {
+          "missed": 19,
+          "total": 268,
+          "rate": 0.0709
+        },
+        "tiny(<16px)": {
+          "missed": 1,
+          "total": 6,
+          "rate": 0.1667
+        }
+      }
+    },
+    {
+      "threshold": 0.5,
+      "tp": 716,
+      "fp": 18,
+      "miss_rate": 0.0517,
+      "fa_per_100_imgs": 2.639,
+      "precision": 0.9755,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 14,
+          "total": 466,
+          "rate": 0.03
+        },
+        "small(16-32)": {
+          "missed": 23,
+          "total": 268,
+          "rate": 0.0858
+        },
+        "tiny(<16px)": {
+          "missed": 1,
+          "total": 6,
+          "rate": 0.1667
+        }
+      }
+    },
+    {
+      "threshold": 0.525,
+      "tp": 711,
+      "fp": 15,
+      "miss_rate": 0.0583,
+      "fa_per_100_imgs": 2.199,
+      "precision": 0.9793,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 16,
+          "total": 466,
+          "rate": 0.0343
+        },
+        "small(16-32)": {
+          "missed": 26,
+          "total": 268,
+          "rate": 0.097
+        },
+        "tiny(<16px)": {
+          "missed": 1,
+          "total": 6,
+          "rate": 0.1667
+        }
+      }
+    },
+    {
+      "threshold": 0.55,
+      "tp": 703,
+      "fp": 9,
+      "miss_rate": 0.0689,
+      "fa_per_100_imgs": 1.32,
+      "precision": 0.9874,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 18,
+          "total": 466,
+          "rate": 0.0386
+        },
+        "small(16-32)": {
+          "missed": 30,
+          "total": 268,
+          "rate": 0.1119
+        },
+        "tiny(<16px)": {
+          "missed": 3,
+          "total": 6,
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "threshold": 0.575,
+      "tp": 691,
+      "fp": 6,
+      "miss_rate": 0.0848,
+      "fa_per_100_imgs": 0.88,
+      "precision": 0.9914,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 25,
+          "total": 466,
+          "rate": 0.0536
+        },
+        "small(16-32)": {
+          "missed": 35,
+          "total": 268,
+          "rate": 0.1306
+        },
+        "tiny(<16px)": {
+          "missed": 3,
+          "total": 6,
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "threshold": 0.6,
+      "tp": 676,
+      "fp": 5,
+      "miss_rate": 0.1046,
+      "fa_per_100_imgs": 0.733,
+      "precision": 0.9927,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 29,
+          "total": 466,
+          "rate": 0.0622
+        },
+        "small(16-32)": {
+          "missed": 46,
+          "total": 268,
+          "rate": 0.1716
+        },
+        "tiny(<16px)": {
+          "missed": 3,
+          "total": 6,
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "threshold": 0.625,
+      "tp": 658,
+      "fp": 2,
+      "miss_rate": 0.1285,
+      "fa_per_100_imgs": 0.293,
+      "precision": 0.997,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 34,
+          "total": 466,
+          "rate": 0.073
+        },
+        "small(16-32)": {
+          "missed": 58,
+          "total": 268,
+          "rate": 0.2164
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.65,
+      "tp": 645,
+      "fp": 2,
+      "miss_rate": 0.1457,
+      "fa_per_100_imgs": 0.293,
+      "precision": 0.9969,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 38,
+          "total": 466,
+          "rate": 0.0815
+        },
+        "small(16-32)": {
+          "missed": 67,
+          "total": 268,
+          "rate": 0.25
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.675,
+      "tp": 627,
+      "fp": 2,
+      "miss_rate": 0.1695,
+      "fa_per_100_imgs": 0.293,
+      "precision": 0.9968,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 42,
+          "total": 466,
+          "rate": 0.0901
+        },
+        "small(16-32)": {
+          "missed": 81,
+          "total": 268,
+          "rate": 0.3022
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    {
+      "threshold": 0.7,
+      "tp": 593,
+      "fp": 1,
+      "miss_rate": 0.2146,
+      "fa_per_100_imgs": 0.147,
+      "precision": 0.9983,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 52,
+          "total": 466,
+          "rate": 0.1116
+        },
+        "small(16-32)": {
+          "missed": 103,
+          "total": 268,
+          "rate": 0.3843
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.725,
+      "tp": 544,
+      "fp": 0,
+      "miss_rate": 0.2795,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 73,
+          "total": 466,
+          "rate": 0.1567
+        },
+        "small(16-32)": {
+          "missed": 131,
+          "total": 268,
+          "rate": 0.4888
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.75,
+      "tp": 500,
+      "fp": 0,
+      "miss_rate": 0.3377,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 2,
+          "total": 15,
+          "rate": 0.1333
+        },
+        "med(32-96)": {
+          "missed": 88,
+          "total": 466,
+          "rate": 0.1888
+        },
+        "small(16-32)": {
+          "missed": 159,
+          "total": 268,
+          "rate": 0.5933
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.775,
+      "tp": 411,
+      "fp": 0,
+      "miss_rate": 0.4556,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 2,
+          "total": 15,
+          "rate": 0.1333
+        },
+        "med(32-96)": {
+          "missed": 138,
+          "total": 466,
+          "rate": 0.2961
+        },
+        "small(16-32)": {
+          "missed": 198,
+          "total": 268,
+          "rate": 0.7388
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.8,
+      "tp": 312,
+      "fp": 0,
+      "miss_rate": 0.5868,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 2,
+          "total": 15,
+          "rate": 0.1333
+        },
+        "med(32-96)": {
+          "missed": 185,
+          "total": 466,
+          "rate": 0.397
+        },
+        "small(16-32)": {
+          "missed": 250,
+          "total": 268,
+          "rate": 0.9328
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.825,
+      "tp": 197,
+      "fp": 0,
+      "miss_rate": 0.7391,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 3,
+          "total": 15,
+          "rate": 0.2
+        },
+        "med(32-96)": {
+          "missed": 281,
+          "total": 466,
+          "rate": 0.603
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.85,
+      "tp": 83,
+      "fp": 0,
+      "miss_rate": 0.8901,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 8,
+          "total": 15,
+          "rate": 0.5333
+        },
+        "med(32-96)": {
+          "missed": 390,
+          "total": 466,
+          "rate": 0.8369
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.875,
+      "tp": 2,
+      "fp": 0,
+      "miss_rate": 0.9974,
+      "fa_per_100_imgs": 0.0,
+      "precision": 1.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 14,
+          "total": 15,
+          "rate": 0.9333
+        },
+        "med(32-96)": {
+          "missed": 465,
+          "total": 466,
+          "rate": 0.9979
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.9,
+      "tp": 0,
+      "fp": 0,
+      "miss_rate": 1.0,
+      "fa_per_100_imgs": 0.0,
+      "precision": 0.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 15,
+          "total": 15,
+          "rate": 1.0
+        },
+        "med(32-96)": {
+          "missed": 466,
+          "total": 466,
+          "rate": 1.0
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.925,
+      "tp": 0,
+      "fp": 0,
+      "miss_rate": 1.0,
+      "fa_per_100_imgs": 0.0,
+      "precision": 0.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 15,
+          "total": 15,
+          "rate": 1.0
+        },
+        "med(32-96)": {
+          "missed": 466,
+          "total": 466,
+          "rate": 1.0
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.95,
+      "tp": 0,
+      "fp": 0,
+      "miss_rate": 1.0,
+      "fa_per_100_imgs": 0.0,
+      "precision": 0.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 15,
+          "total": 15,
+          "rate": 1.0
+        },
+        "med(32-96)": {
+          "missed": 466,
+          "total": 466,
+          "rate": 1.0
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "threshold": 0.975,
+      "tp": 0,
+      "fp": 0,
+      "miss_rate": 1.0,
+      "fa_per_100_imgs": 0.0,
+      "precision": 0.0,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 15,
+          "total": 15,
+          "rate": 1.0
+        },
+        "med(32-96)": {
+          "missed": 466,
+          "total": 466,
+          "rate": 1.0
+        },
+        "small(16-32)": {
+          "missed": 268,
+          "total": 268,
+          "rate": 1.0
+        },
+        "tiny(<16px)": {
+          "missed": 6,
+          "total": 6,
+          "rate": 1.0
+        }
+      }
+    }
+  ],
+  "operating_points": {
+    "fa<=0.5/100": {
+      "threshold": 0.625,
+      "tp": 658,
+      "fp": 2,
+      "miss_rate": 0.1285,
+      "fa_per_100_imgs": 0.293,
+      "precision": 0.997,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 34,
+          "total": 466,
+          "rate": 0.073
+        },
+        "small(16-32)": {
+          "missed": 58,
+          "total": 268,
+          "rate": 0.2164
+        },
+        "tiny(<16px)": {
+          "missed": 4,
+          "total": 6,
+          "rate": 0.6667
+        }
+      }
+    },
+    "fa<=1.0/100": {
+      "threshold": 0.575,
+      "tp": 691,
+      "fp": 6,
+      "miss_rate": 0.0848,
+      "fa_per_100_imgs": 0.88,
+      "precision": 0.9914,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 25,
+          "total": 466,
+          "rate": 0.0536
+        },
+        "small(16-32)": {
+          "missed": 35,
+          "total": 268,
+          "rate": 0.1306
+        },
+        "tiny(<16px)": {
+          "missed": 3,
+          "total": 6,
+          "rate": 0.5
+        }
+      }
+    },
+    "fa<=2.0/100": {
+      "threshold": 0.55,
+      "tp": 703,
+      "fp": 9,
+      "miss_rate": 0.0689,
+      "fa_per_100_imgs": 1.32,
+      "precision": 0.9874,
+      "miss_by_bucket": {
+        "large(>96)": {
+          "missed": 1,
+          "total": 15,
+          "rate": 0.0667
+        },
+        "med(32-96)": {
+          "missed": 18,
+          "total": 466,
+          "rate": 0.0386
+        },
+        "small(16-32)": {
+          "missed": 30,
+          "total": 268,
+          "rate": 0.1119
+        },
+        "tiny(<16px)": {
+          "missed": 3,
+          "total": 6,
+          "rate": 0.5
+        }
+      }
+    }
+  }
+}

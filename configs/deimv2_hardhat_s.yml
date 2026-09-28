@@ -1,0 +1,42 @@
+# DEIMv2-S (DINOv3 ViT-Tiny backbone) fine-tune on hard-hat arm1 variant (2 classes).
+# Place at deimv2/configs/deimv2/deimv2_hardhat_s.yml; train with:
+#   python train.py -c configs/deimv2/deimv2_hardhat_s.yml -t ckpts/deimv2_dinov3_s_coco.pth
+__include__: [
+  './deimv2_dinov3_s_coco.yml',
+]
+
+output_dir: ../repo/runs/deimv2_s_arm1
+
+num_classes: 3            # labels {1: head, 2: helmet}; 0 unused
+remap_mscoco_category: False
+
+epoches: 48               # fine-tune schedule (vs 132 from-scratch)
+flat_epoch: 24
+no_aug_epoch: 8
+
+train_dataloader:
+  total_batch_size: 16
+  num_workers: 2
+  dataset:
+    img_folder: ../repo/data/variants/arm1/train/
+    ann_file: ../repo/data/variants/arm1/train/_annotations.coco.json
+    transforms:
+      policy:
+        epoch: [4, 24, 40]
+  collate_fn:
+    mixup_epochs: [4, 24]
+    stop_epoch: 40
+    copyblend_epochs: [4, 40]
+
+val_dataloader:
+  total_batch_size: 32
+  num_workers: 2
+  dataset:
+    img_folder: ../repo/data/variants/arm1/valid/
+    ann_file: ../repo/data/variants/arm1/valid/_annotations.coco.json
+
+DEIMCriterion:
+  matcher:
+    matcher_change_epoch: 36
+
+# dataloader workers reduced: recvfds ancdata crash with defaults on this box

@@ -1,0 +1,1619 @@
+{
+  "n_crops": 26424,
+  "n_flagged": 157,
+  "flag_rate": 0.0059,
+  "rates_by_label_bucket": {
+    "head|large(>96)": {
+      "flagged": 4,
+      "total": 135,
+      "rate": 0.0296
+    },
+    "head|med(32-96)": {
+      "flagged": 45,
+      "total": 3874,
+      "rate": 0.0116
+    },
+    "head|small(16-32)": {
+      "flagged": 44,
+      "total": 2577,
+      "rate": 0.0171
+    },
+    "head|tiny(<16px)": {
+      "flagged": 1,
+      "total": 91,
+      "rate": 0.011
+    },
+    "helmet|large(>96)": {
+      "flagged": 2,
+      "total": 2105,
+      "rate": 0.001
+    },
+    "helmet|med(32-96)": {
+      "flagged": 37,
+      "total": 10948,
+      "rate": 0.0034
+    },
+    "helmet|small(16-32)": {
+      "flagged": 20,
+      "total": 6148,
+      "rate": 0.0033
+    },
+    "helmet|tiny(<16px)": {
+      "flagged": 4,
+      "total": 546,
+      "rate": 0.0073
+    }
+  },
+  "flagged": [
+    {
+      "split": "valid",
+      "img": "005102_jpg.rf.1de2e7df8b7b018bf22e019ac6c9d012.jpg",
+      "ann_id": 4007,
+      "label": "head",
+      "h": 23,
+      "bucket": "small(16-32)",
+      "prob_helmet": 1.0,
+      "rank": 0
+    },
+    {
+      "split": "test",
+      "img": "005939_jpg.rf.d65e3ee44a9857375e22e45ab86c0f7e.jpg",
+      "ann_id": 2348,
+      "label": "head",
+      "h": 32,
+      "bucket": "med(32-96)",
+      "prob_helmet": 1.0,
+      "rank": 1
+    },
+    {
+      "split": "test",
+      "img": "005562_jpg.rf.c8ca00acac17f6b4aae9021430b35e39.jpg",
+      "ann_id": 2198,
+      "label": "head",
+      "h": 20,
+      "bucket": "small(16-32)",
+      "prob_helmet": 1.0,
+      "rank": 2
+    },
+    {
+      "split": "test",
+      "img": "005435_jpg.rf.bee586d08a401fa423038f1cc7ac83c7.jpg",
+      "ann_id": 2126,
+      "label": "head",
+      "h": 18,
+      "bucket": "small(16-32)",
+      "prob_helmet": 1.0,
+      "rank": 3
+    },
+    {
+      "split": "valid",
+      "img": "006618_jpg.rf.b68dec8950bd93bb41ea64d9f1d1bbe7.jpg",
+      "ann_id": 1740,
+      "label": "helmet",
+      "h": 40,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.0,
+      "rank": 4
+    },
+    {
+      "split": "train",
+      "img": "004918_jpg.rf.c628196db2a5efdc4c804450e9fc55f1.jpg",
+      "ann_id": 3869,
+      "label": "helmet",
+      "h": 23,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.0,
+      "rank": 5
+    },
+    {
+      "split": "test",
+      "img": "005939_jpg.rf.d65e3ee44a9857375e22e45ab86c0f7e.jpg",
+      "ann_id": 2347,
+      "label": "head",
+      "h": 24,
+      "bucket": "small(16-32)",
+      "prob_helmet": 1.0,
+      "rank": 6
+    },
+    {
+      "split": "train",
+      "img": "001888_jpg.rf.d2c7fcb1e21f7e9c34b6106471128e70.jpg",
+      "ann_id": 4742,
+      "label": "helmet",
+      "h": 42,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.0,
+      "rank": 7
+    },
+    {
+      "split": "valid",
+      "img": "006591_jpg.rf.d1ba67c8b765de1174fcb86e54e6e3b5.jpg",
+      "ann_id": 2297,
+      "label": "head",
+      "h": 36,
+      "bucket": "med(32-96)",
+      "prob_helmet": 1.0,
+      "rank": 8
+    },
+    {
+      "split": "train",
+      "img": "004243_jpg.rf.75c5a62ec8b12bd46c4d3555b75e24af.jpg",
+      "ann_id": 15612,
+      "label": "head",
+      "h": 57,
+      "bucket": "med(32-96)",
+      "prob_helmet": 1.0,
+      "rank": 9
+    },
+    {
+      "split": "test",
+      "img": "005570_jpg.rf.66db82fe73e3353ab1c1d2ab773c5c91.jpg",
+      "ann_id": 1051,
+      "label": "helmet",
+      "h": 34,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.0,
+      "rank": 10
+    },
+    {
+      "split": "train",
+      "img": "002376_jpg.rf.0c006168ced5a938ec77be04d1cb965b.jpg",
+      "ann_id": 188,
+      "label": "head",
+      "h": 25,
+      "bucket": "small(16-32)",
+      "prob_helmet": 1.0,
+      "rank": 11
+    },
+    {
+      "split": "test",
+      "img": "005986_jpg.rf.91bea98a01a292c24cd6276e85c45a8f.jpg",
+      "ann_id": 1490,
+      "label": "head",
+      "h": 53,
+      "bucket": "med(32-96)",
+      "prob_helmet": 1.0,
+      "rank": 12
+    },
+    {
+      "split": "valid",
+      "img": "006250_jpg.rf.6163fa171539a54d85104032419d6c78.jpg",
+      "ann_id": 5321,
+      "label": "helmet",
+      "h": 188,
+      "bucket": "large(>96)",
+      "prob_helmet": 0.0,
+      "rank": 13
+    },
+    {
+      "split": "train",
+      "img": "004743_jpg.rf.58f66167db025864f096478579256acc.jpg",
+      "ann_id": 13464,
+      "label": "head",
+      "h": 30,
+      "bucket": "small(16-32)",
+      "prob_helmet": 1.0,
+      "rank": 14
+    },
+    {
+      "split": "valid",
+      "img": "006326_jpg.rf.12ffb4c2543c2b1ca0556ef8122df4ee.jpg",
+      "ann_id": 3789,
+      "label": "helmet",
+      "h": 86,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.001,
+      "rank": 15
+    },
+    {
+      "split": "valid",
+      "img": "006507_jpg.rf.edbfd7fff9ec3b23fbf63599de1722f7.jpg",
+      "ann_id": 2888,
+      "label": "head",
+      "h": 67,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.999,
+      "rank": 16
+    },
+    {
+      "split": "train",
+      "img": "004726_jpg.rf.fcaf9e4bbdfc9fbf6a5c29e8a1dc45bf.jpg",
+      "ann_id": 18649,
+      "label": "head",
+      "h": 21,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.999,
+      "rank": 17
+    },
+    {
+      "split": "train",
+      "img": "002109_jpg.rf.7281fd4774d7f0ee2c992328b85e5c77.jpg",
+      "ann_id": 15392,
+      "label": "helmet",
+      "h": 44,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.001,
+      "rank": 18
+    },
+    {
+      "split": "test",
+      "img": "005639_jpg.rf.4783a19b458cb90f8c6204403be8f54d.jpg",
+      "ann_id": 638,
+      "label": "head",
+      "h": 52,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.999,
+      "rank": 19
+    },
+    {
+      "split": "train",
+      "img": "003303_jpg.rf.143148778f659d0e0efd3744acb02679.jpg",
+      "ann_id": 770,
+      "label": "head",
+      "h": 19,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.999,
+      "rank": 20
+    },
+    {
+      "split": "train",
+      "img": "003736_jpg.rf.f11a905e7176edf449c442ad1a976387.jpg",
+      "ann_id": 17834,
+      "label": "head",
+      "h": 56,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.999,
+      "rank": 21
+    },
+    {
+      "split": "train",
+      "img": "001691_jpg.rf.33d8fb5ab1a55d68db9cce42656195a6.jpg",
+      "ann_id": 3266,
+      "label": "helmet",
+      "h": 40,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.001,
+      "rank": 22
+    },
+    {
+      "split": "train",
+      "img": "004879_jpg.rf.62f64151c7d3883c01acb2b47d3dcbfc.jpg",
+      "ann_id": 14283,
+      "label": "helmet",
+      "h": 62,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.001,
+      "rank": 23
+    },
+    {
+      "split": "train",
+      "img": "003187_jpg.rf.fc78f7d8e1a1a5aad32cd10760815536.jpg",
+      "ann_id": 18664,
+      "label": "head",
+      "h": 32,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.999,
+      "rank": 24
+    },
+    {
+      "split": "valid",
+      "img": "006060_jpg.rf.1279e43c27c1c8645897dbc7b32eaa64.jpg",
+      "ann_id": 3734,
+      "label": "head",
+      "h": 20,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.999,
+      "rank": 25
+    },
+    {
+      "split": "valid",
+      "img": "006022_jpg.rf.65022444b3afaf5fc34149d3abd1a370.jpg",
+      "ann_id": 34,
+      "label": "head",
+      "h": 22,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.999,
+      "rank": 26
+    },
+    {
+      "split": "train",
+      "img": "001600_jpg.rf.6b36262affb3913586ba6faef43e78d4.jpg",
+      "ann_id": 14876,
+      "label": "head",
+      "h": 79,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.999,
+      "rank": 27
+    },
+    {
+      "split": "test",
+      "img": "005939_jpg.rf.d65e3ee44a9857375e22e45ab86c0f7e.jpg",
+      "ann_id": 2346,
+      "label": "head",
+      "h": 20,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.999,
+      "rank": 28
+    },
+    {
+      "split": "valid",
+      "img": "006194_jpg.rf.599a75c715716502a8c3623ed686e97a.jpg",
+      "ann_id": 5163,
+      "label": "head",
+      "h": 39,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.999,
+      "rank": 29
+    },
+    {
+      "split": "train",
+      "img": "002626_jpg.rf.91f7019eb163ff066a82fd1087b75b60.jpg",
+      "ann_id": 17571,
+      "label": "head",
+      "h": 27,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.999,
+      "rank": 30
+    },
+    {
+      "split": "train",
+      "img": "001894_jpg.rf.8da5dc90f56dcc40061da5daca3a4f3d.jpg",
+      "ann_id": 17279,
+      "label": "head",
+      "h": 25,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.999,
+      "rank": 31
+    },
+    {
+      "split": "train",
+      "img": "002460_jpg.rf.f1b5e6fedfe918c3b4b53f3d40307adf.jpg",
+      "ann_id": 17889,
+      "label": "head",
+      "h": 34,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.999,
+      "rank": 32
+    },
+    {
+      "split": "train",
+      "img": "001778_jpg.rf.ab53e6fd0f2f3cf1d3300e51f707cbab.jpg",
+      "ann_id": 9539,
+      "label": "helmet",
+      "h": 23,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.001,
+      "rank": 33
+    },
+    {
+      "split": "train",
+      "img": "004840_jpg.rf.c08e9aa8f87ba30aa99df0110eb8ca18.jpg",
+      "ann_id": 3515,
+      "label": "head",
+      "h": 32,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.999,
+      "rank": 34
+    },
+    {
+      "split": "train",
+      "img": "001413_jpg.rf.9dcb9d8df8a2563ecc83584c8baec6a3.jpg",
+      "ann_id": 8491,
+      "label": "head",
+      "h": 55,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.998,
+      "rank": 35
+    },
+    {
+      "split": "train",
+      "img": "002681_jpg.rf.b1aa14ee74fbe33b27983bcf4e0bece0.jpg",
+      "ann_id": 10033,
+      "label": "helmet",
+      "h": 20,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.002,
+      "rank": 36
+    },
+    {
+      "split": "valid",
+      "img": "007009_jpg.rf.727fde96d97aabcfb5e02ab8bd3f2289.jpg",
+      "ann_id": 357,
+      "label": "helmet",
+      "h": 39,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.002,
+      "rank": 37
+    },
+    {
+      "split": "train",
+      "img": "002822_jpg.rf.7d97efc2756632695407f3cf07dafbe5.jpg",
+      "ann_id": 16257,
+      "label": "helmet",
+      "h": 41,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.002,
+      "rank": 38
+    },
+    {
+      "split": "train",
+      "img": "000814_jpg.rf.10de8e3020398b65d94feb1f4d3aa05b.jpg",
+      "ann_id": 498,
+      "label": "helmet",
+      "h": 50,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.002,
+      "rank": 39
+    },
+    {
+      "split": "train",
+      "img": "002545_jpg.rf.837e295a547e2ae73c56db6cf3132569.jpg",
+      "ann_id": 16649,
+      "label": "head",
+      "h": 24,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.998,
+      "rank": 40
+    },
+    {
+      "split": "train",
+      "img": "003095_jpg.rf.a0d582d05a31747346c30ba4bfebd4e9.jpg",
+      "ann_id": 8745,
+      "label": "helmet",
+      "h": 16,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.002,
+      "rank": 41
+    },
+    {
+      "split": "train",
+      "img": "004618_jpg.rf.25964678ee07c3327febbb18f430b64d.jpg",
+      "ann_id": 2137,
+      "label": "head",
+      "h": 39,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.998,
+      "rank": 42
+    },
+    {
+      "split": "train",
+      "img": "004274_jpg.rf.3fcc344c0587c9dd140195fdf1112a60.jpg",
+      "ann_id": 11686,
+      "label": "head",
+      "h": 45,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.998,
+      "rank": 43
+    },
+    {
+      "split": "train",
+      "img": "002376_jpg.rf.0c006168ced5a938ec77be04d1cb965b.jpg",
+      "ann_id": 183,
+      "label": "head",
+      "h": 22,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.998,
+      "rank": 44
+    },
+    {
+      "split": "valid",
+      "img": "006110_jpg.rf.9a99015b6f45b7a35633411caf6208ee.jpg",
+      "ann_id": 1155,
+      "label": "head",
+      "h": 90,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.997,
+      "rank": 45
+    },
+    {
+      "split": "train",
+      "img": "002766_jpg.rf.e40ca8c362a0476472d4ed903acd4f78.jpg",
+      "ann_id": 6156,
+      "label": "helmet",
+      "h": 26,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.003,
+      "rank": 46
+    },
+    {
+      "split": "test",
+      "img": "005939_jpg.rf.d65e3ee44a9857375e22e45ab86c0f7e.jpg",
+      "ann_id": 2345,
+      "label": "head",
+      "h": 34,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.997,
+      "rank": 47
+    },
+    {
+      "split": "train",
+      "img": "002727_jpg.rf.cf7871355e24f8a7307062873a88c0e4.jpg",
+      "ann_id": 4489,
+      "label": "head",
+      "h": 35,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.997,
+      "rank": 48
+    },
+    {
+      "split": "train",
+      "img": "002934_jpg.rf.b52f09d74397ae791693b25b0ffd3373.jpg",
+      "ann_id": 10220,
+      "label": "helmet",
+      "h": 65,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.003,
+      "rank": 49
+    },
+    {
+      "split": "valid",
+      "img": "007062_jpg.rf.3e634729c1a76e8e48f9a83747039022.jpg",
+      "ann_id": 4725,
+      "label": "head",
+      "h": 68,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.997,
+      "rank": 50
+    },
+    {
+      "split": "train",
+      "img": "002957_jpg.rf.a59118b6b19a83d8a69579d6dacce35d.jpg",
+      "ann_id": 9012,
+      "label": "head",
+      "h": 91,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.997,
+      "rank": 51
+    },
+    {
+      "split": "valid",
+      "img": "006910_jpg.rf.18971f24b561adc0dcfccb1f96934fc5.jpg",
+      "ann_id": 4023,
+      "label": "helmet",
+      "h": 40,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.004,
+      "rank": 52
+    },
+    {
+      "split": "valid",
+      "img": "006270_jpg.rf.c5e7ce2a30681924938d3bff978a357d.jpg",
+      "ann_id": 2039,
+      "label": "helmet",
+      "h": 34,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.004,
+      "rank": 53
+    },
+    {
+      "split": "train",
+      "img": "000024_jpg.rf.4601c8d8f78bea62f71500d2e954cabe.jpg",
+      "ann_id": 12295,
+      "label": "helmet",
+      "h": 64,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.004,
+      "rank": 54
+    },
+    {
+      "split": "train",
+      "img": "001065_jpg.rf.e0c11ccffe73d64de893392c24e76bc3.jpg",
+      "ann_id": 5963,
+      "label": "head",
+      "h": 22,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.996,
+      "rank": 55
+    },
+    {
+      "split": "train",
+      "img": "001059_jpg.rf.2a05e55068444e3d78906616bfc0356d.jpg",
+      "ann_id": 2489,
+      "label": "head",
+      "h": 89,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.996,
+      "rank": 56
+    },
+    {
+      "split": "test",
+      "img": "005376_jpg.rf.a40700549c50160284002961e82432e0.jpg",
+      "ann_id": 1758,
+      "label": "head",
+      "h": 54,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.995,
+      "rank": 57
+    },
+    {
+      "split": "valid",
+      "img": "006344_jpg.rf.69c50cb7a17037f64eaf21d58692a63d.jpg",
+      "ann_id": 139,
+      "label": "helmet",
+      "h": 45,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.005,
+      "rank": 58
+    },
+    {
+      "split": "train",
+      "img": "003707_jpg.rf.90d0fb37e3fc05f91ecb921bc74b84a6.jpg",
+      "ann_id": 17505,
+      "label": "head",
+      "h": 41,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.995,
+      "rank": 59
+    },
+    {
+      "split": "train",
+      "img": "003508_jpg.rf.ef79a73e913bc2069e06077d628e0708.jpg",
+      "ann_id": 17734,
+      "label": "head",
+      "h": 31,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.994,
+      "rank": 60
+    },
+    {
+      "split": "test",
+      "img": "005990_jpg.rf.f28a41b011109fdf6b212dee6bc43767.jpg",
+      "ann_id": 2524,
+      "label": "head",
+      "h": 27,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.994,
+      "rank": 61
+    },
+    {
+      "split": "train",
+      "img": "000052_jpg.rf.e8155468cc06104cebcd1fceb549e1b9.jpg",
+      "ann_id": 6446,
+      "label": "head",
+      "h": 17,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.993,
+      "rank": 62
+    },
+    {
+      "split": "valid",
+      "img": "006076_jpg.rf.402674decb44126f8cffd1e63be5263f.jpg",
+      "ann_id": 4720,
+      "label": "helmet",
+      "h": 24,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.007,
+      "rank": 63
+    },
+    {
+      "split": "train",
+      "img": "003705_jpg.rf.14fe6f0dbda1e5ff69cc13ecf87b8a19.jpg",
+      "ann_id": 910,
+      "label": "head",
+      "h": 113,
+      "bucket": "large(>96)",
+      "prob_helmet": 0.992,
+      "rank": 64
+    },
+    {
+      "split": "train",
+      "img": "004288_jpg.rf.a5af98c628fab1e6fb20557a23814a5a.jpg",
+      "ann_id": 9053,
+      "label": "helmet",
+      "h": 35,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.008,
+      "rank": 65
+    },
+    {
+      "split": "valid",
+      "img": "005239_jpg.rf.5f1ecfd1a2f522498672fba5e0e0523f.jpg",
+      "ann_id": 5288,
+      "label": "head",
+      "h": 59,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.992,
+      "rank": 66
+    },
+    {
+      "split": "train",
+      "img": "004840_jpg.rf.c08e9aa8f87ba30aa99df0110eb8ca18.jpg",
+      "ann_id": 3514,
+      "label": "head",
+      "h": 37,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.992,
+      "rank": 67
+    },
+    {
+      "split": "train",
+      "img": "000891_jpg.rf.3ecc189ea56497071490a966682cc6f3.jpg",
+      "ann_id": 11642,
+      "label": "head",
+      "h": 84,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.992,
+      "rank": 68
+    },
+    {
+      "split": "train",
+      "img": "003999_jpg.rf.92493b403da27accf3536992679c001f.jpg",
+      "ann_id": 17598,
+      "label": "head",
+      "h": 88,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.992,
+      "rank": 69
+    },
+    {
+      "split": "train",
+      "img": "000437_jpg.rf.002f4ad4e5d0076f80c86654a7dc9ef1.jpg",
+      "ann_id": 6960,
+      "label": "head",
+      "h": 21,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.992,
+      "rank": 70
+    },
+    {
+      "split": "train",
+      "img": "002067_jpg.rf.4ceb33cef65fd1ba122dc367235d628b.jpg",
+      "ann_id": 12745,
+      "label": "head",
+      "h": 49,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.992,
+      "rank": 71
+    },
+    {
+      "split": "train",
+      "img": "000898_jpg.rf.b1561c02df2f417c425f2d240684267d.jpg",
+      "ann_id": 9956,
+      "label": "head",
+      "h": 21,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.992,
+      "rank": 72
+    },
+    {
+      "split": "valid",
+      "img": "006190_jpg.rf.1c19b017339a41863d10bc7c760af7af.jpg",
+      "ann_id": 3939,
+      "label": "head",
+      "h": 18,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.991,
+      "rank": 73
+    },
+    {
+      "split": "train",
+      "img": "003391_jpg.rf.0acbceb402c8c7e0ed8e6e7026dc44f5.jpg",
+      "ann_id": 125,
+      "label": "head",
+      "h": 27,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.991,
+      "rank": 74
+    },
+    {
+      "split": "train",
+      "img": "001305_jpg.rf.a73535f674373fceaece2fa44714134c.jpg",
+      "ann_id": 9185,
+      "label": "helmet",
+      "h": 19,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.009,
+      "rank": 75
+    },
+    {
+      "split": "test",
+      "img": "005391_jpg.rf.fb129799e84452f591b9502ccba8f082.jpg",
+      "ann_id": 2613,
+      "label": "head",
+      "h": 47,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.991,
+      "rank": 76
+    },
+    {
+      "split": "train",
+      "img": "001667_jpg.rf.0b69e94e1a50431711e53cfe737dcd34.jpg",
+      "ann_id": 169,
+      "label": "head",
+      "h": 69,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.991,
+      "rank": 77
+    },
+    {
+      "split": "train",
+      "img": "002376_jpg.rf.0c006168ced5a938ec77be04d1cb965b.jpg",
+      "ann_id": 189,
+      "label": "head",
+      "h": 28,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.99,
+      "rank": 78
+    },
+    {
+      "split": "train",
+      "img": "002545_jpg.rf.837e295a547e2ae73c56db6cf3132569.jpg",
+      "ann_id": 16651,
+      "label": "head",
+      "h": 18,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.99,
+      "rank": 79
+    },
+    {
+      "split": "train",
+      "img": "003667_jpg.rf.719570ebf7cd8f7e8084155c83f0765b.jpg",
+      "ann_id": 15363,
+      "label": "head",
+      "h": 116,
+      "bucket": "large(>96)",
+      "prob_helmet": 0.99,
+      "rank": 80
+    },
+    {
+      "split": "train",
+      "img": "003356_jpg.rf.5ab71bd2f617499038c45c86439c7888.jpg",
+      "ann_id": 13636,
+      "label": "helmet",
+      "h": 13,
+      "bucket": "tiny(<16px)",
+      "prob_helmet": 0.01,
+      "rank": 81
+    },
+    {
+      "split": "train",
+      "img": "004892_jpg.rf.5c71b6d5e3575d8407dec7a224bf8b22.jpg",
+      "ann_id": 13721,
+      "label": "head",
+      "h": 34,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.99,
+      "rank": 82
+    },
+    {
+      "split": "valid",
+      "img": "006640_jpg.rf.dfb7c7e1adb047af8094e3fbd4fe2ae1.jpg",
+      "ann_id": 2667,
+      "label": "head",
+      "h": 27,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.989,
+      "rank": 83
+    },
+    {
+      "split": "train",
+      "img": "004507_jpg.rf.74cfac8834d73926f3b36f2d25df4e88.jpg",
+      "ann_id": 15513,
+      "label": "helmet",
+      "h": 32,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.011,
+      "rank": 84
+    },
+    {
+      "split": "test",
+      "img": "005360_jpg.rf.894462b44db9175c5de990298365b5b5.jpg",
+      "ann_id": 1434,
+      "label": "helmet",
+      "h": 18,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.011,
+      "rank": 85
+    },
+    {
+      "split": "train",
+      "img": "001417_jpg.rf.3100221cfd30f721b8876ac6fba314d3.jpg",
+      "ann_id": 3031,
+      "label": "head",
+      "h": 247,
+      "bucket": "large(>96)",
+      "prob_helmet": 0.988,
+      "rank": 86
+    },
+    {
+      "split": "valid",
+      "img": "006300_jpg.rf.6b626438338f0f01258b4a6d545dbf09.jpg",
+      "ann_id": 151,
+      "label": "helmet",
+      "h": 39,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.012,
+      "rank": 87
+    },
+    {
+      "split": "train",
+      "img": "000579_jpg.rf.c5ed8d34278f86905736d3b9089b0377.jpg",
+      "ann_id": 3816,
+      "label": "helmet",
+      "h": 35,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.012,
+      "rank": 88
+    },
+    {
+      "split": "train",
+      "img": "001579_jpg.rf.0ab410f9dfb8eea8f28ba9608e654ce5.jpg",
+      "ann_id": 98,
+      "label": "head",
+      "h": 59,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.988,
+      "rank": 89
+    },
+    {
+      "split": "test",
+      "img": "005883_jpg.rf.3199595d61d965e45f41a5ae05abaaf1.jpg",
+      "ann_id": 484,
+      "label": "head",
+      "h": 43,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.987,
+      "rank": 90
+    },
+    {
+      "split": "train",
+      "img": "002138_jpg.rf.363490a292024f0fb97353fcd619acc7.jpg",
+      "ann_id": 3421,
+      "label": "helmet",
+      "h": 50,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.013,
+      "rank": 91
+    },
+    {
+      "split": "train",
+      "img": "001621_jpg.rf.b35eb4c04c39a95321e6533ee6baf6a6.jpg",
+      "ann_id": 10086,
+      "label": "head",
+      "h": 32,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.987,
+      "rank": 92
+    },
+    {
+      "split": "train",
+      "img": "001901_jpg.rf.92413af129976941438660f3aecc4805.jpg",
+      "ann_id": 17587,
+      "label": "head",
+      "h": 26,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.987,
+      "rank": 93
+    },
+    {
+      "split": "train",
+      "img": "001446_jpg.rf.5f8ac328b197b75bd78abc29d148fe05.jpg",
+      "ann_id": 14047,
+      "label": "head",
+      "h": 39,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.987,
+      "rank": 94
+    },
+    {
+      "split": "train",
+      "img": "001329_jpg.rf.0afba3ca9802badf03246c8819589f47.jpg",
+      "ann_id": 116,
+      "label": "head",
+      "h": 208,
+      "bucket": "large(>96)",
+      "prob_helmet": 0.986,
+      "rank": 95
+    },
+    {
+      "split": "train",
+      "img": "004234_jpg.rf.a83e3d3b27f24e5ccd9be989d5efc152.jpg",
+      "ann_id": 9321,
+      "label": "helmet",
+      "h": 32,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.014,
+      "rank": 96
+    },
+    {
+      "split": "train",
+      "img": "001643_jpg.rf.edaffebdaeb1adc923fac8bca4557d6e.jpg",
+      "ann_id": 17674,
+      "label": "head",
+      "h": 36,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.986,
+      "rank": 97
+    },
+    {
+      "split": "train",
+      "img": "000385_jpg.rf.423f8437769772f22e1e813d97cbdf93.jpg",
+      "ann_id": 11950,
+      "label": "head",
+      "h": 40,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.986,
+      "rank": 98
+    },
+    {
+      "split": "test",
+      "img": "005578_jpg.rf.61853015cfb194391c2ab0277a5811b5.jpg",
+      "ann_id": 1009,
+      "label": "head",
+      "h": 86,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.986,
+      "rank": 99
+    },
+    {
+      "split": "valid",
+      "img": "006560_jpg.rf.fc02ca0a5c6ee850a84e9727703c1c57.jpg",
+      "ann_id": 3214,
+      "label": "head",
+      "h": 22,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.985,
+      "rank": 100
+    },
+    {
+      "split": "valid",
+      "img": "006098_jpg.rf.1da6315cf07e50de2ff4ea1ea4e25fd6.jpg",
+      "ann_id": 4033,
+      "label": "head",
+      "h": 21,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.984,
+      "rank": 101
+    },
+    {
+      "split": "train",
+      "img": "003775_jpg.rf.935b8a967fc0856746264a1b2d304c3b.jpg",
+      "ann_id": 7693,
+      "label": "head",
+      "h": 17,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.984,
+      "rank": 102
+    },
+    {
+      "split": "test",
+      "img": "005457_jpg.rf.68712f604ac3bb19371024142c01baea.jpg",
+      "ann_id": 1030,
+      "label": "helmet",
+      "h": 37,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.016,
+      "rank": 103
+    },
+    {
+      "split": "train",
+      "img": "004183_jpg.rf.e68f9a1f51d10c31d5b4198bf0033fb0.jpg",
+      "ann_id": 6375,
+      "label": "head",
+      "h": 18,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.983,
+      "rank": 104
+    },
+    {
+      "split": "train",
+      "img": "001800_jpg.rf.1bcfc41e44b52d91a32a1a9c44b43ce5.jpg",
+      "ann_id": 1404,
+      "label": "head",
+      "h": 17,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.983,
+      "rank": 105
+    },
+    {
+      "split": "train",
+      "img": "001643_jpg.rf.edaffebdaeb1adc923fac8bca4557d6e.jpg",
+      "ann_id": 17668,
+      "label": "helmet",
+      "h": 28,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.018,
+      "rank": 106
+    },
+    {
+      "split": "test",
+      "img": "005420_jpg.rf.0509d33a04258b33f8b1ff6c42e4cbf9.jpg",
+      "ann_id": 22,
+      "label": "helmet",
+      "h": 113,
+      "bucket": "large(>96)",
+      "prob_helmet": 0.019,
+      "rank": 107
+    },
+    {
+      "split": "valid",
+      "img": "006464_jpg.rf.7a7949c151964abdff3c64f72f778833.jpg",
+      "ann_id": 494,
+      "label": "head",
+      "h": 20,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.981,
+      "rank": 108
+    },
+    {
+      "split": "train",
+      "img": "000961_jpg.rf.d58f27f6fcf9fba130e1eea8a633c630.jpg",
+      "ann_id": 4906,
+      "label": "head",
+      "h": 14,
+      "bucket": "tiny(<16px)",
+      "prob_helmet": 0.981,
+      "rank": 109
+    },
+    {
+      "split": "train",
+      "img": "002326_jpg.rf.bcbe79b1b9fbbceb8a14c5f93adbfd67.jpg",
+      "ann_id": 10787,
+      "label": "head",
+      "h": 39,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.981,
+      "rank": 110
+    },
+    {
+      "split": "train",
+      "img": "001607_jpg.rf.9d4f90de9f8455332cb465e479e73054.jpg",
+      "ann_id": 8406,
+      "label": "head",
+      "h": 33,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.98,
+      "rank": 111
+    },
+    {
+      "split": "train",
+      "img": "000855_jpg.rf.4214ca535f7e10d54d06a94d7ed76131.jpg",
+      "ann_id": 11933,
+      "label": "head",
+      "h": 20,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.98,
+      "rank": 112
+    },
+    {
+      "split": "train",
+      "img": "004726_jpg.rf.fcaf9e4bbdfc9fbf6a5c29e8a1dc45bf.jpg",
+      "ann_id": 18650,
+      "label": "head",
+      "h": 23,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.98,
+      "rank": 113
+    },
+    {
+      "split": "train",
+      "img": "003535_jpg.rf.ff0003ca49f515e63db7e1f31263af61.jpg",
+      "ann_id": 18887,
+      "label": "head",
+      "h": 34,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.98,
+      "rank": 114
+    },
+    {
+      "split": "train",
+      "img": "004894_jpg.rf.6ab1d4dc4ca5be0205be8384d632989f.jpg",
+      "ann_id": 14893,
+      "label": "head",
+      "h": 35,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.98,
+      "rank": 115
+    },
+    {
+      "split": "train",
+      "img": "000898_jpg.rf.b1561c02df2f417c425f2d240684267d.jpg",
+      "ann_id": 9953,
+      "label": "head",
+      "h": 27,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.979,
+      "rank": 116
+    },
+    {
+      "split": "train",
+      "img": "002506_jpg.rf.133f4438fdd324a2642556a3bccfb8c3.jpg",
+      "ann_id": 691,
+      "label": "helmet",
+      "h": 24,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.021,
+      "rank": 117
+    },
+    {
+      "split": "train",
+      "img": "001717_jpg.rf.48625112990ceb49a4c4327190457d8a.jpg",
+      "ann_id": 12577,
+      "label": "helmet",
+      "h": 46,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.022,
+      "rank": 118
+    },
+    {
+      "split": "train",
+      "img": "001691_jpg.rf.33d8fb5ab1a55d68db9cce42656195a6.jpg",
+      "ann_id": 3273,
+      "label": "head",
+      "h": 38,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.978,
+      "rank": 119
+    },
+    {
+      "split": "test",
+      "img": "005795_jpg.rf.233bab59db93f0435eb6fdc878f372da.jpg",
+      "ann_id": 354,
+      "label": "head",
+      "h": 24,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.978,
+      "rank": 120
+    },
+    {
+      "split": "train",
+      "img": "000243_jpg.rf.ecec669d119630c2e318cfe9bdbd7a7a.jpg",
+      "ann_id": 6892,
+      "label": "helmet",
+      "h": 17,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.024,
+      "rank": 121
+    },
+    {
+      "split": "train",
+      "img": "001056_jpg.rf.4bbe94b4ed7b58b77578536029bf7452.jpg",
+      "ann_id": 12642,
+      "label": "head",
+      "h": 30,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.976,
+      "rank": 122
+    },
+    {
+      "split": "train",
+      "img": "000621_jpg.rf.577025cd295b824b5e53d0aacd07f15b.jpg",
+      "ann_id": 13401,
+      "label": "helmet",
+      "h": 11,
+      "bucket": "tiny(<16px)",
+      "prob_helmet": 0.024,
+      "rank": 123
+    },
+    {
+      "split": "valid",
+      "img": "005270_jpg.rf.52d86427e741071a9c58d357913325ec.jpg",
+      "ann_id": 5011,
+      "label": "head",
+      "h": 23,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.975,
+      "rank": 124
+    },
+    {
+      "split": "test",
+      "img": "005499_jpg.rf.fc0784ff25f49b3e3d8087f2fb4151bb.jpg",
+      "ann_id": 2647,
+      "label": "head",
+      "h": 44,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.975,
+      "rank": 125
+    },
+    {
+      "split": "train",
+      "img": "003076_jpg.rf.191041e76bcb586ec46a1715b2d808f1.jpg",
+      "ann_id": 1202,
+      "label": "head",
+      "h": 19,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.975,
+      "rank": 126
+    },
+    {
+      "split": "valid",
+      "img": "005185_jpg.rf.4aa5ef68eefdc3def6a10954ae49a44e.jpg",
+      "ann_id": 4950,
+      "label": "head",
+      "h": 18,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.975,
+      "rank": 127
+    },
+    {
+      "split": "test",
+      "img": "005599_jpg.rf.33ae5721a3865cb0d171aa04f7575869.jpg",
+      "ann_id": 461,
+      "label": "helmet",
+      "h": 28,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.026,
+      "rank": 128
+    },
+    {
+      "split": "train",
+      "img": "001901_jpg.rf.92413af129976941438660f3aecc4805.jpg",
+      "ann_id": 17586,
+      "label": "head",
+      "h": 27,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.974,
+      "rank": 129
+    },
+    {
+      "split": "train",
+      "img": "002158_jpg.rf.dccba9c4ee4c9c201fd569c5cffa4c48.jpg",
+      "ann_id": 5592,
+      "label": "head",
+      "h": 60,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.974,
+      "rank": 130
+    },
+    {
+      "split": "train",
+      "img": "002713_jpg.rf.2536a1587a73a50165e4ae1e3fdd85dc.jpg",
+      "ann_id": 2106,
+      "label": "head",
+      "h": 25,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.974,
+      "rank": 131
+    },
+    {
+      "split": "train",
+      "img": "001739_jpg.rf.247ed4378619d56df4556b244913a902.jpg",
+      "ann_id": 1945,
+      "label": "helmet",
+      "h": 24,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.026,
+      "rank": 132
+    },
+    {
+      "split": "train",
+      "img": "001621_jpg.rf.b35eb4c04c39a95321e6533ee6baf6a6.jpg",
+      "ann_id": 10087,
+      "label": "head",
+      "h": 23,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.974,
+      "rank": 133
+    },
+    {
+      "split": "train",
+      "img": "003926_jpg.rf.8478f98b4e5f7cfcc32645d1a4f0dcc7.jpg",
+      "ann_id": 16777,
+      "label": "helmet",
+      "h": 51,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.027,
+      "rank": 134
+    },
+    {
+      "split": "train",
+      "img": "004523_jpg.rf.20c306abb7d8da2c688ebc47b49a9752.jpg",
+      "ann_id": 1826,
+      "label": "helmet",
+      "h": 28,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.03,
+      "rank": 135
+    },
+    {
+      "split": "valid",
+      "img": "005148_jpg.rf.184c7ea7e3553aa7e612b46851b35e94.jpg",
+      "ann_id": 3840,
+      "label": "helmet",
+      "h": 52,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.031,
+      "rank": 136
+    },
+    {
+      "split": "train",
+      "img": "004687_jpg.rf.b7d9da0f4236cb53cdb3d09d28625dee.jpg",
+      "ann_id": 10491,
+      "label": "helmet",
+      "h": 23,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.034,
+      "rank": 137
+    },
+    {
+      "split": "train",
+      "img": "003599_jpg.rf.9de492e2d9f183932dcc105198ff81c6.jpg",
+      "ann_id": 8497,
+      "label": "helmet",
+      "h": 46,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.036,
+      "rank": 138
+    },
+    {
+      "split": "train",
+      "img": "004143_jpg.rf.49907953048b47deb3de270ccbeb6259.jpg",
+      "ann_id": 12561,
+      "label": "helmet",
+      "h": 46,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.037,
+      "rank": 139
+    },
+    {
+      "split": "train",
+      "img": "003018_jpg.rf.5bd9918e99636cdd2af91d0174cecedc.jpg",
+      "ann_id": 13661,
+      "label": "helmet",
+      "h": 18,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.041,
+      "rank": 140
+    },
+    {
+      "split": "train",
+      "img": "003563_jpg.rf.f9d2fae8024399ca8572601cdf4d31dc.jpg",
+      "ann_id": 18464,
+      "label": "helmet",
+      "h": 32,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.042,
+      "rank": 141
+    },
+    {
+      "split": "train",
+      "img": "000217_jpg.rf.b28eb4f00370bc38dc67fb0ec0a0f1c2.jpg",
+      "ann_id": 10036,
+      "label": "helmet",
+      "h": 36,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.042,
+      "rank": 142
+    },
+    {
+      "split": "train",
+      "img": "002967_jpg.rf.816788cee649c12fe1d75efdeb5a3084.jpg",
+      "ann_id": 16524,
+      "label": "helmet",
+      "h": 18,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.042,
+      "rank": 143
+    },
+    {
+      "split": "train",
+      "img": "001338_jpg.rf.007c035396fe11dbd47ff578804167d0.jpg",
+      "ann_id": 6973,
+      "label": "helmet",
+      "h": 8,
+      "bucket": "tiny(<16px)",
+      "prob_helmet": 0.045,
+      "rank": 144
+    },
+    {
+      "split": "valid",
+      "img": "006258_jpg.rf.1024c3c5afdb4e8c5141748148a32e80.jpg",
+      "ann_id": 3716,
+      "label": "helmet",
+      "h": 38,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.048,
+      "rank": 145
+    },
+    {
+      "split": "train",
+      "img": "003625_jpg.rf.be581fe48a0b4f31f0276fc39b5e1ea0.jpg",
+      "ann_id": 10923,
+      "label": "helmet",
+      "h": 28,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.049,
+      "rank": 146
+    },
+    {
+      "split": "train",
+      "img": "001533_jpg.rf.3e2fafc86f6446d27adef07ba37d560f.jpg",
+      "ann_id": 11583,
+      "label": "helmet",
+      "h": 46,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.055,
+      "rank": 147
+    },
+    {
+      "split": "train",
+      "img": "002194_jpg.rf.69c4cc6515f36f9e738c4a2ee4c1df05.jpg",
+      "ann_id": 14857,
+      "label": "helmet",
+      "h": 65,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.056,
+      "rank": 148
+    },
+    {
+      "split": "train",
+      "img": "003578_jpg.rf.7047506df544e46266985828312e21e5.jpg",
+      "ann_id": 15254,
+      "label": "helmet",
+      "h": 18,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.057,
+      "rank": 149
+    },
+    {
+      "split": "valid",
+      "img": "006966_jpg.rf.edc54f1e76c4c4d3101d1d234dce37ac.jpg",
+      "ann_id": 2923,
+      "label": "helmet",
+      "h": 39,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.057,
+      "rank": 150
+    },
+    {
+      "split": "test",
+      "img": "005921_jpg.rf.d386215d9849befc03bb8fe9f3986ee3.jpg",
+      "ann_id": 2311,
+      "label": "helmet",
+      "h": 52,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.061,
+      "rank": 151
+    },
+    {
+      "split": "train",
+      "img": "001739_jpg.rf.247ed4378619d56df4556b244913a902.jpg",
+      "ann_id": 1942,
+      "label": "helmet",
+      "h": 27,
+      "bucket": "small(16-32)",
+      "prob_helmet": 0.064,
+      "rank": 152
+    },
+    {
+      "split": "train",
+      "img": "002841_jpg.rf.ed38b8dd6d084fa62e9be86b10ce6ecf.jpg",
+      "ann_id": 6874,
+      "label": "helmet",
+      "h": 44,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.069,
+      "rank": 153
+    },
+    {
+      "split": "valid",
+      "img": "006323_jpg.rf.1888c732f59770a48ed3e745237cb3e2.jpg",
+      "ann_id": 3917,
+      "label": "helmet",
+      "h": 46,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.071,
+      "rank": 154
+    },
+    {
+      "split": "train",
+      "img": "002062_jpg.rf.e80a6c3d7cccecf1338c0392bc2ad4c4.jpg",
+      "ann_id": 6401,
+      "label": "helmet",
+      "h": 86,
+      "bucket": "med(32-96)",
+      "prob_helmet": 0.073,
+      "rank": 155
+    },
+    {
+      "split": "train",
+      "img": "004461_jpg.rf.839d82cac98a9347ac4f0b801cca95cb.jpg",
+      "ann_id": 16700,
+      "label": "helmet",
+      "h": 7,
+      "bucket": "tiny(<16px)",
+      "prob_helmet": 0.077,
+      "rank": 156
+    }
+  ]
+}
